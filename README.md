@@ -1,7 +1,7 @@
 ## Real questions from committees (based on Performance Review Forms).
 
 ###Unit/Integration testing
-- Как можно использовать  тестирование при переписывании легаси кода на новую кодовую базу?
+- How can tests be used at rewriting legacy code to a new code base?
 - What are the differences between TDD and BDD aproaches. What JS frameworks for TDD/BDD you know?
 - What tools are you using to test ability of your site to look equally in necessary browsers?
 - What is integrational and e2e tesing?
@@ -10,20 +10,20 @@
 - Drawback? Coverage?
 
 ###Browser internals. Performance optimization.
-- Что ты понимаешь под performance optimizations?
-- Какими тулами ты пользовался  при улучшении перформанса?
-- Каким образом ты понял что перформанс улучшен?
-- Какие memory leaks тебе удалось найти и что для их поиска ты использовал?
+- What do you mean by performance optimizations?
+- What tools do you use while improving performance?
+- How did you know that the performance improved?
+- What memory leaks did you find and what they search for you using?
 - How do you usally deal with perfomance issues?
 - What kind of perfomance issues do you know?
 - Which tools you use to trace them?
 - Which technices you now or applied to solve memory leaks? Describe some of your personal experience in solving such issues.
 
 ###Code quality
-- Что ты понимаешь под хорошим кодом?
-- Как вы поддерживаете качество кода на проекте?
-- Какая методология разработки используется на вашем проекте?
-- Что тебе не нравится и что можно бы было улучшить?
+- What do you mean by a good code?
+- How do you maintain the quality of code on the project?
+- What development methodology is used on project?
+- What do you not like, that would possible be improved?
 - Which code review tools you know/use? Your criterias for good code.
 
 ###Frameworks
