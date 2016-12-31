@@ -39,7 +39,8 @@
 - ES6 Temporal dead-zone
 - If I define 2 functions with the same name in the same scope, which one will be executed?
 - Which types of inheritance implementation in JS you know/use?
-- es5 / es6 new features || language supersets (e.g. SASS, TypeScript)
+  - Could you expain all ways how to inherit one object from another?
+- ES5 / ES6 new features || language supersets (e.g. SASS, TypeScript)
 - What CSS preprocessors you know/use? Pros and cons?
 - What was the most interesting crossbrowser issue you came across? How did you fix it?
 - What techniques you can use to avoid callback hell?
@@ -52,8 +53,14 @@
 - Experience in building mobile, desktop, tv or any other different from the browser environment applications?
 - Common dev environent setup? What dev environment should include for FE app?
 - Talk about build process/CI on your project. Why Grunt/Gulp/... is used?
-- What build tools are you using in your projects? Why?
+  - Let’s imagine you need to implement CI on a new project. What will be your actions?
+  - What build tools are you using in your projects? Why?
 - Как бы ты сделал ... (проект, процесс, воркфлоу) в идеальном мире (сговорчивый заказчик, есть все необходымые тулы и время).
+- What are disadvantages of webpack?
+- Describe the methods of building web UI: Progressive Enhancement and Graceful Degradation.
+- What is asynchronous programming, and why is it important in JavaScript?
+- What's the difference between an "attribute" and a "property" in DOM?
+- Could you describe pitfalls you may face with in development for mobile devices? (What are the difficulties you may face)
 
 ### Browser internals. Performance optimization.
 - Possible ways to speedup your javascript code execution time? Hidden classes? try/catch?
@@ -70,6 +77,7 @@
 - What kind of perfomance issues do you know?
 - Which tools you use to trace them?
 - Which technices you now or applied to solve memory leaks? Describe some of your personal experience in solving such issues.
+- How do you understand that you need to improve performance of your application? How do you convince client that you need to do this.
 
 ### Code quality
 - What do you mean by a good code?
@@ -78,9 +86,8 @@
 - What do you not like, that would possible be improved?
 - Which code review tools you know/use? Your criterias for good code.
 
-
 ### Security
-- Same origin policy, CORS
+- Same origin policy, CORS.
 - Different types of XSS?
 - How do you prevent XSS?
 - Content Security Policy headers values, quote few examples?
@@ -106,16 +113,24 @@
 - Could you mention a few design patterns you usually use in your front end code?
 - Расскажи чем отличаются  MV* паттерны? Назови их реализации на примере фреймворков.
 - Расскажи побольше про какие-нибудь паттерны, которые тебе приходилось использовать?
+- Explain pros and cons of development using the components approach?
 
 ### Frameworks
 - What is the main difference from your point of view between JS framework XXX and YYY.
 - What are benefits and shortcomings of AngularJS, what do you like in 2.0 (if know)
+- Describe the weak points of AngularJS and how can we deal with them.
 - What is(are) killer feature(-es) of Angular JS, what would you personally highlight in this technology?
 - Declarative vs Imperative programming in its application to Angular and/or HTML/CSS/JS apps. Shortcomings and benefits of each approach.
 - How would you convince me to change my webapp to use Angular.js if I were a customer and I didn’t know anything about technical details?
 - Your favorite FE framework.
-- Представь, что тебе нужно подобрать фреймворк для проекта. На чем ты будешь основываться при его выборе?
+- Imagine you need to choose framework for your new project. Which criterias will you use to make decision?
+  - What are you actions when you need to decide between two libraries that you’ll use in your project?
 - Если пилишь свой фреймворк на проекте. Выбери любой из тебе знакомых (AngularJS, Backbone, ect) и сравни с разрабатываемым. Найди плюсы и минусы. Почему выбор пал на разработку именно кастомного фреймворка.
+- How to improve performance of react components?
+- What is Pure Component in react?
+- Redux principles: What is pure function? Where it came from (what paradigm)?
+- How "reselect library" improves performance? How do you measure perf? When reselect optimizations not working?
+- What is main difference between Redux and Facebook Flux library?
 
 ### Interview
 - How do you rate candidates? What skills do you rate as the most important for the company?
@@ -160,12 +175,14 @@
 - Describe your actions when customer wants a new feature, and hesitating which way to go - adapt already existing CMS system, or write everything from a scratch.
 - Customer requests to migrate Desktop version of the product to mobile devices. Could you please describe your specific questions?
 - Some developer from project you technically lead/coordinate came to you with proposal to apply ES6 (ECMA2015). Your actions? Will you reject that proposal? Apply? Why it worth or not worth to apply?
+- How do you explain ‘dependency injection’ pattern to someone who has no experience working with it?
 
 ### Agile Scrum Kanban
 - Методология скрам. Стори поинты. + как вы эстимируете таски-стори на проекте.
 - How do you estimate your tasks?
 - What criterias you will use to prioritize tasks between you and your mentee/subordinates?
 - What differences between Scrum and Kanban metodologies. Why Scrum/Kanban/Waterfall is more applicable for you project?
+  - When can’t we use SCRUM?
 - What you will do in case you see that your original estimation was wrong and you need overtime to finish till deadline.
 - Talk about SDLC in context of your project.
 - What is the use of Planning & Retrospective meetings?
@@ -181,15 +198,15 @@
 - What would you do in case you realize that you won’t be able to deliver planned functionality in time and your estimations were wrong?
 - How do you prioritize your tasks? How do you estimate your tasks? For example you need to decide which task is more important for you right now. What will you do?
 
-
 ### Other
 - What sources did you use for keeping you knowledge up to date and learning new thing?
 - How do you keep yourself up-to-date?
 - What FED technologies do you consider that will be very popular in the nearest future. How do you exploit and promote them?
-- self-development - ways, techniques, practices, etc.
+- Self-development - ways, techniques, practices, etc.
 - What is your goal to become a senior software engineer?
-- What does it mean to be a Senior Specialist? Please explain new challenges and responsibilities.
-- What challenges or big goals would you like set for yourself being Cheif Software Engineer
+  - What does it mean to be a Senior Specialist? Please explain new challenges and responsibilities.
+  - What is the difference between L2 and L3 engineer?
+- What challenges or big goals would you like set for yourself being Cheif Software Engineer.
 - What concrete problems have you faced so far? Mention a few examples.
 - What would you do if you can’t find the solution?
 - Please describe your problem solving skill a bit more. What do you exactly do if you face a problem?
@@ -201,6 +218,10 @@
 - Could you please tell us what your daily routine in the office is like?
 - Could you let us know how you usually follow the latest technologies? Can you mention a few example you just read about and being excited to make a try with?
 - Have you ever had the chance to improve a process in any area of your work?
+- What are your actions when you/someone discovers a bug in production?
+- What kind of documents you’ve created recently (UML diagrams, etc.)?
+- Describe how do you manage and eliminate a technical debt on your project?
+- How do you convince client to eliminate tech debt?
 
 ### Task
 ```Text
