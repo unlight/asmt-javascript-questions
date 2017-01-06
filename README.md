@@ -14,10 +14,11 @@
 - How often do you refactor code? What are the reasons which force you to refactor code?
 - Imagine the situation that you come to an existing project and see no coding guidelines established there and see issues coming out of this. What would you do?
 - Exactly what kind of documentations did you create for your project?
-- Что ты понимаешь под хорошим кодом?
-- Как вы поддерживаете качество кода на проекте?
-- Какая методология разработки используется на вашем проекте?
-- Что тебе не нравится и что можно бы было улучшить?
+- What do you mean by a good code?
+- How do you maintain the quality of code on the project?
+- What development methodology is used on project?
+- What do you not like, that would possible be improved?
+- Which code review tools you know/use? Your criterias for good code.
 
 ### Unit/Integration testing
 - How can tests be used at rewriting legacy code to a new code base?
@@ -78,13 +79,6 @@
 - Which tools you use to trace them?
 - Which technices you now or applied to solve memory leaks? Describe some of your personal experience in solving such issues.
 - How do you understand that you need to improve performance of your application? How do you convince client that you need to do this.
-
-### Code quality
-- What do you mean by a good code?
-- How do you maintain the quality of code on the project?
-- What development methodology is used on project?
-- What do you not like, that would possible be improved?
-- Which code review tools you know/use? Your criterias for good code.
 
 ### Security
 - Same origin policy, CORS.
