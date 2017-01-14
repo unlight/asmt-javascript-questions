@@ -275,7 +275,15 @@ Team: 4 persons with different skillsets (D1, D2, D3, D4)
 ```
 
 ## Want more?
-https://github.com/h5bp/Front-end-Developer-Interview-Questions
+- https://github.com/h5bp/Front-end-Developer-Interview-Questions
+- https://github.com/gdi2290/ngExam
+- https://github.com/MaximAbramchuck/awesome-interview-questions
+  - https://github.com/MaximAbramchuck/awesome-interview-questions#javascript
+  - https://github.com/MaximAbramchuck/awesome-interview-questions#angularjs
+  - https://github.com/MaximAbramchuck/awesome-interview-questions#less
+  - https://github.com/MaximAbramchuck/awesome-interview-questions#nodejs
+  - https://github.com/MaximAbramchuck/awesome-interview-questions#reactjs
+  - https://github.com/MaximAbramchuck/awesome-interview-questions#design-patterns
 
 ## Contributors
 * [Aliaksei Krauchanka](https://github.com/npocto-leshka)
