@@ -81,6 +81,7 @@
 ### Node.js
 - What kind of streams are there in nodejs?
 - Describe how method pipe works.
+- The difference between nextTick and setImmediate?
 
 ### Browser internals. Performance optimization.
 - Possible ways to speedup your javascript code execution time? Hidden classes? try/catch?
@@ -151,6 +152,7 @@ which recently discovered. What will be your actions?
 - What better in your opinion - one-way or two-way data binding, why? What is better to use (prefer) in Angular?
 - What performance optimization techniques do you know in AngularJS?
 - Describe lifecycle of directive in AngularJS?
+- What are general recipes for optimizing Angular application?
 
 ### Interview
 - How do you rate candidates? What skills do you rate as the most important for the company?
@@ -224,6 +226,7 @@ which recently discovered. What will be your actions?
 - What is better under-estimation or over-estimation?
 - Let’s imagine you need to create ‘Send Email’ form from Gmail. What are your estimates and why?
 - What estimation techniques do you know?
+- Describe your steps if you realize that you wrongly estimated some stories and sprint fails?
 
 ### Other
 - What sources did you use for keeping you knowledge up to date and learning new thing?
@@ -257,6 +260,9 @@ which recently discovered. What will be your actions?
 - What does Key Developer role mean?
 - You are starting new project from scratch, what frameworks, arch patterns would you choose and why?
 - What is semantic versioning?
+- What internal EPAM initiatives do you know? In which of them you participate?
+- How do you understand "Definition of Done"?
+- What is "Definition of Ready"?
 
 ### Task
 ```Text
@@ -277,6 +283,7 @@ Team: 4 persons with different skillsets (D1, D2, D3, D4)
 ## Want more?
 - https://github.com/h5bp/Front-end-Developer-Interview-Questions
 - https://github.com/gdi2290/ngExam
+- https://github.com/nishant8BITS/123-Essential-JavaScript-Interview-Question
 - https://github.com/MaximAbramchuck/awesome-interview-questions
   - https://github.com/MaximAbramchuck/awesome-interview-questions#javascript
   - https://github.com/MaximAbramchuck/awesome-interview-questions#angularjs
