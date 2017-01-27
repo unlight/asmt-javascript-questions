@@ -263,6 +263,8 @@ which recently discovered. What will be your actions?
 - What internal EPAM initiatives do you know? In which of them you participate?
 - How do you understand "Definition of Done"?
 - What is "Definition of Ready"?
+- Расскажите о нагружённом и сложном дне за последние 2 недели. Что пошло не так? Как вы с этим справились?
+- Были ли у вас демотивированные сотрудники? Расскажите, что вы предприняли, чтобы исправить ситуацию. 
 
 ### Task
 ```Text
