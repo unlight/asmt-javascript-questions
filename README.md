@@ -288,6 +288,9 @@ Team: 4 persons with different skillsets (D1, D2, D3, D4)
 - https://github.com/h5bp/Front-end-Developer-Interview-Questions
 - https://github.com/gdi2290/ngExam
 - https://github.com/nishant8BITS/123-Essential-JavaScript-Interview-Question
+- http://davidshariff.com/quiz/
+- http://thatjsdude.com/interview/index.html
+- http://davidshariff.com/js-quiz/
 - https://github.com/MaximAbramchuck/awesome-interview-questions
   - https://github.com/MaximAbramchuck/awesome-interview-questions#javascript
   - https://github.com/MaximAbramchuck/awesome-interview-questions#angularjs
