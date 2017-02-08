@@ -291,6 +291,9 @@ Team: 4 persons with different skillsets (D1, D2, D3, D4)
 - http://davidshariff.com/quiz/
 - http://thatjsdude.com/interview/index.html
 - http://davidshariff.com/js-quiz/
+- https://github.com/ChiperSoft/InterviewThis
+- http://davidshariff.com/blog/preparing-for-a-front-end-web-development-interview-in-2017/
+- https://medium.freecodecamp.com/cracking-the-front-end-interview-9a34cd46237
 - https://github.com/MaximAbramchuck/awesome-interview-questions
   - https://github.com/MaximAbramchuck/awesome-interview-questions#javascript
   - https://github.com/MaximAbramchuck/awesome-interview-questions#angularjs
