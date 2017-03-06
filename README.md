@@ -77,6 +77,7 @@
 - What is strict mode? what are the advantages and disadvantages to using it?
 - Could you name the disadvantages of transpiling to javascript?
 - What does * { box-sizing: border-box; } do? What are its advantages?
+- Typescript: difference between interfaces and types?
 
 ### Node.js
 - What kind of streams are there in nodejs?
@@ -286,6 +287,7 @@ Team: 4 persons with different skillsets (D1, D2, D3, D4)
 
 ## Want more?
 - https://github.com/h5bp/Front-end-Developer-Interview-Questions
+- https://github.com/Yonet/Angular2-Interview-Questions
 - https://github.com/gdi2290/ngExam
 - https://github.com/nishant8BITS/123-Essential-JavaScript-Interview-Question
 - http://davidshariff.com/quiz/
