@@ -14,10 +14,9 @@
 - How often do you refactor code? What are the reasons which force you to refactor code?
 - Imagine the situation that you come to an existing project and see no coding guidelines established there and see issues coming out of this. What would you do?
 - Exactly what kind of documentations did you create for your project?
-- Что ты понимаешь под хорошим кодом?
-- Как вы поддерживаете качество кода на проекте?
-- Какая методология разработки используется на вашем проекте?
-- Что тебе не нравится и что можно бы было улучшить?
+- How do you maintain code quality in your project?
+- What development methodology do you use in your project? 
+- What you don't like in your project? How can you improve this? 
 
 ###Unit/Integration testing
 - What are the differences between TDD and BDD aproaches. What JS frameworks for TDD/BDD you know?
@@ -30,7 +29,7 @@
 - How do you test your code?
 - How will you convince your team member to start using TDD? What are the benefits of TDD?
 - What is your Unit Tests covering process? What is acceptable Code Coverage level?
-- Как можно использовать  тестирование при переписывании легаси кода на новую кодовую базу?
+- How you can use tests while re-writing legacy code?
 
 ###JS && DOM && CSS
 - What is WeakMap/Symbol/Set?
@@ -52,7 +51,7 @@
 - Common dev environent setup? What dev environment should include for FE app?
 - Talk about build process/CI on your project. Why Grunt/Gulp/... is used?
 - What build tools are you using in your projects? Why?
-- Как бы ты сделал ... (проект, процесс, воркфлоу) в идеальном мире (сговорчивый заказчик, есть все необходымые тулы и время).
+- Could you please describe an ideal project for you? Which processes, workflow, tools would you use? 
 
 ###Browser internals. Performance optimization.
 - Possible ways to speedup your javascript code execution time? Hidden classes? try/catch?
@@ -62,7 +61,7 @@
 - What kind of perfomance issues do you know?
 - Which tools you use to trace them?
 - Which technices you know or applied to solve memory leaks? Describe some of your personal experience in solving such issues.
-- Какие memory leaks тебе удалось найти и что для их поиска ты использовал?
+- Which memory leaks have you ever found and what tools did you use to find them?
 
 ###Security
 - Same origin policy, CORS
@@ -89,8 +88,8 @@
 - What design patterns you are using mostly in your code?
 - What is the use of design patterns? What problems do they solve? How can they help in communication?
 - Could you mention a few design patterns you usually use in your front end code?
-- Расскажи чем отличаются  MV* паттерны? Назови их реализации на примере фреймворков.
-- Расскажи побольше про какие-нибудь паттерны, которые тебе приходилось использовать?
+- What the differences between MV* patterns? Could you give examples of MV* patterns in frameworks?
+- Could you tell more about patterns you had to use?
 
 ###Frameworks
 - What is the main difference from your point of view between JS framework XXX and YYY.
@@ -99,20 +98,20 @@
 - Declarative vs Imperative programming in its application to Angular and/or HTML/CSS/JS apps. Shortcomings and benefits of each approach.
 - How would you convince me to change my webapp to use Angular.js if I were a customer and I didn’t know anything about technical details?
 - Your favorite FE framework.
-- Представь, что тебе нужно подобрать фреймворк для проекта. На чем ты будешь основываться при его выборе?
-- Если пилишь свой фреймворк на проекте. Выбери любой из тебе знакомых (AngularJS, Backbone, ect) и сравни с разрабатываемым. Найди плюсы и минусы. Почему выбор пал на разработку именно кастомного фреймворка.
+- Imagine you have to choose framework for your project. What will you base on when you choose it? 
+- Imagine you write your own custom framework for project needs. Could you please compare your framework with anyone, you're familiar with (AngularJS, Backbone, etc). Do you adree that developing custom framework might be efficient than using existing one and why?  
 
 ###Interview
 - How do you rate candidates? What skills do you rate as the most important for the company?
 - How do you prepare for the interview? Do you use tricky questions or practice tasks?
-- Describe how would you interview people for the certain project. What kind of questions or topics are most important to get the right candidate?"
-- What are the most important things for you in the feedback for the intreviewee
+- Describe how would you interview people for the certain project. What kind of questions or topics are most important to get the right candidate?
+- What are the most important things for you in the feedback for the intreviewee?
 - Have you participated in technical interviews? If yes, what was the most challenged question from you?
 
 ###Mentoring
 - What was the most difficult/interesting/exciting about mentoring new people?
 - We've seen in your PRF that some of your mentees failed to complete the course. Could you describe why and propose how to avoid such situations in future
-- Besides the university trainee program have you had the chance to lead a team or some people yet? How did you start ramping-
+- Besides the university trainee program have you had the chance to lead a team or some people yet? How did you start ramping up? 
 - What are those skills which make you a good mentor?
 - Could you please describe the University Trainee Program? What was your role?
 - What results of mentoring (for yourself) can you mention?
@@ -147,7 +146,8 @@
 - Some developer from project you technically lead/coordinate came to you with proposal to apply ES6 (ECMA2015). Your actions? Will you reject that proposal? Apply? Why it worth or not worth to apply?
 
 ###Agile Scrum Kanban
-- Методология скрам. Стори поинты. + как вы эстимируете таски-стори на проекте.
+- What is scrum methodology? 
+- What are story points? 
 - How do you estimate your tasks?
 - What criterias you will use to prioritize tasks between you and your mentee/subordinates?
 - What differences between Scrum and Kanban metodologies. Why Scrum/Kanban/Waterfall is more applicable for you project?
