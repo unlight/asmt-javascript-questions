@@ -15,15 +15,15 @@
 - Imagine the situation that you come to an existing project and see no coding guidelines established there and see issues coming out of this. What would you do?
 - Exactly what kind of documentations did you create for your project?
 - What do you mean by a good code?
-- How do you maintain the quality of code on the project?
-- What development methodology is used on project?
-- What do you not like, that would possible be improved?
+- How do you maintain code quality in your project?
+- What development methodology do you use in your project? 
+- What you don't like in your project? How can you improve this?
 - Which code review tools you know/use? Your criterias for good code.
 - Do you use software design principles in your practice? Could you tell which design principles do you use and why you need them?
 - How do you understand that the code is good/bad?
 
 ### Unit/Integration testing
-- How can tests be used at rewriting legacy code to a new code base?
+- How you can use tests while re-writing legacy code?
 - What are the differences between TDD and BDD aproaches. What JS frameworks for TDD/BDD you know?
 - What tools are you using to test ability of your site to look equally in necessary browsers?
 - What's the difference between unit, functional, acceptance, and integration tests?
@@ -34,7 +34,6 @@
 - How do you test your code?
 - How will you convince your team member to start using TDD? What are the benefits of TDD?
 - What is your Unit Tests covering process? What is acceptable Code Coverage level?
-- Как можно использовать  тестирование при переписывании легаси кода на новую кодовую базу?
 - What is better White or Black testing?
 - What is the Testing Pyramid?
 - Can you describe what are the main differences between Jasmine and Mocha?
@@ -64,7 +63,7 @@
 - Talk about build process/CI on your project. Why Grunt/Gulp/... is used?
   - Let’s imagine you need to implement CI on a new project. What will be your actions?
   - What build tools are you using in your projects? Why?
-- Как бы ты сделал ... (проект, процесс, воркфлоу) в идеальном мире (сговорчивый заказчик, есть все необходымые тулы и время).
+- Could you please describe an ideal project for you? Which processes, workflow, tools would you use?
 - What are disadvantages of webpack?
 - Describe the methods of building web UI: Progressive Enhancement and Graceful Degradation.
 - Explain the JavaScript Event Loop.
@@ -99,9 +98,10 @@
 - What kind of perfomance issues do you know?
 - Which tools you use to trace them?
 - Which technices you know or applied to solve memory leaks? Describe some of your personal experience in solving such issues.
+<<<<<<< HEAD
 - What tools do you use while improving performance?
 - How did you know that the performance improved?
-- What memory leaks did you find and what they search for you using?
+- Which memory leaks have you ever found and what tools did you use to find them?
 - How do you usally deal with perfomance issues?
 - What kind of perfomance issues do you know?
 - Which tools you use to trace them?
@@ -115,8 +115,7 @@
 - How do you prevent XSS?
 - Content Security Policy headers values, quote few examples?
 - How would you initiate manual security code review of Node.js applications?
-- Let’s says that you have node application, and some dependency has critical vulnerability 
-which recently discovered. What will be your actions?
+- Let’s says that you have node application, and some dependency has critical vulnerability which recently discovered. What will be your actions?
 
 ### Architecture and design patterns
 - Please compare pros and cons for Single-page and Multi-page application approaches.
@@ -136,8 +135,8 @@ which recently discovered. What will be your actions?
 - What design patterns you are using mostly in your code?
 - What is the use of design patterns? What problems do they solve? How can they help in communication?
 - Could you mention a few design patterns you usually use in your front end code?
-- Расскажи чем отличаются  MV* паттерны? Назови их реализации на примере фреймворков.
-- Расскажи побольше про какие-нибудь паттерны, которые тебе приходилось использовать?
+- What the differences between MV* patterns? Could you give examples of MV* patterns in frameworks?
+- Could you tell more about patterns you had to use?
 - Explain pros and cons of development using the components approach?
 
 ### Frameworks
@@ -148,9 +147,10 @@ which recently discovered. What will be your actions?
 - Declarative vs Imperative programming in its application to Angular and/or HTML/CSS/JS apps. Shortcomings and benefits of each approach.
 - How would you convince me to change my webapp to use Angular.js if I were a customer and I didn’t know anything about technical details?
 - Your favorite FE framework.
+<<<<<<< HEAD
 - Imagine you need to choose framework for your new project. Which criterias will you use to make decision?
   - What are you actions when you need to decide between two libraries that you’ll use in your project?
-- Если пилишь свой фреймворк на проекте. Выбери любой из тебе знакомых (AngularJS, Backbone, ect) и сравни с разрабатываемым. Найди плюсы и минусы. Почему выбор пал на разработку именно кастомного фреймворка.
+- Imagine you write your own custom framework for project needs. Could you please compare your framework with anyone, you're familiar with (AngularJS, Backbone, etc). Do you adree that developing custom framework might be efficient than using existing one and why?
 - How to improve performance of react components?
 - What is Pure Component in react?
 - Redux principles: What is pure function? Where it came from (what paradigm)?
@@ -175,14 +175,14 @@ which recently discovered. What will be your actions?
 ### Interview
 - How do you rate candidates? What skills do you rate as the most important for the company?
 - How do you prepare for the interview? Do you use tricky questions or practice tasks?
-- Describe how would you interview people for the certain project. What kind of questions or topics are most important to get the right candidate?"
-- What are the most important things for you in the feedback for the intreviewee
+- Describe how would you interview people for the certain project. What kind of questions or topics are most important to get the right candidate?
+- What are the most important things for you in the feedback for the intreviewee?
 - Have you participated in technical interviews? If yes, what was the most challenged question from you?
 
 ### Mentoring
 - What was the most difficult/interesting/exciting about mentoring new people?
 - We've seen in your PRF that some of your mentees failed to complete the course. Could you describe why and propose how to avoid such situations in future
-- Besides the university trainee program have you had the chance to lead a team or some people yet? How did you start ramping-
+- Besides the university trainee program have you had the chance to lead a team or some people yet? How did you start ramping up? 
 - What are those skills which make you a good mentor?
 - Could you please describe the University Trainee Program? What was your role?
 - What results of mentoring (for yourself) can you mention?
@@ -222,7 +222,8 @@ which recently discovered. What will be your actions?
 - Client said “This new feature should be done today?”, but you understand you’ll need a week to finish it. What will you do?
 
 ### Agile Scrum Kanban
-- Методология скрам. Стори поинты. + как вы эстимируете таски-стори на проекте.
+- What is scrum methodology? 
+- What are story points? 
 - How do you estimate your tasks?
 - What criterias you will use to prioritize tasks between you and your mentee/subordinates?
 - What differences between Scrum and Kanban metodologies. Why Scrum/Kanban/Waterfall is more applicable for you project?
