@@ -1,6 +1,6 @@
-## Real questions from committees (based on Performance Review Forms).
+## Real questions from committees
 
-### Code quality
+### Code Quality
 - Which code review tools you know/use? Your criterias for good code.
 - What is code review in your opinion?
 - How you'll setup code review for team of 5 devs with different skillsets?
@@ -37,6 +37,7 @@
 - Как можно использовать  тестирование при переписывании легаси кода на новую кодовую базу?
 - What is better White or Black testing?
 - What is the Testing Pyramid?
+- Can you describe what are the main differences between Jasmine and Mocha?
 
 ### JS && DOM && CSS
 - What is WeakMap/Symbol/Set?
@@ -66,18 +67,24 @@
 - Как бы ты сделал ... (проект, процесс, воркфлоу) в идеальном мире (сговорчивый заказчик, есть все необходымые тулы и время).
 - What are disadvantages of webpack?
 - Describe the methods of building web UI: Progressive Enhancement and Graceful Degradation.
+- Explain the JavaScript Event Loop.
+- Explain difference between microtask and macrotask within an event loop context.
 - What is asynchronous programming, and why is it important in JavaScript?
 - What's the difference between an "attribute" and a "property" in DOM?
 - Could you describe pitfalls you may face with in development for mobile devices? (What are the difficulties you may face)
-- Compare TypeScript vs Flow, what features they provide, what problems they solve?
 - What is the difference between arrow function and function expression? 
 - Can you compare the managing async code by promises and by Observables (pros and cons)?
-- What are the disadvantages of TypeScript?
-  - How we can increase the speed of TypeScript compilation process by sacrificing typechecking?
 - What is strict mode? what are the advantages and disadvantages to using it?
 - Could you name the disadvantages of transpiling to javascript?
 - What does * { box-sizing: border-box; } do? What are its advantages?
-- Typescript: difference between interfaces and types?
+- Is there multi-threading in JavaScript?
+- What is immutability? Why do you need it? How can you ensure immutability in JavaScript?
+
+### TypeScript
+- Compare TypeScript vs Flow, what features they provide, what problems they solve?
+- What are the disadvantages of TypeScript?
+- How we can increase the speed of TypeScript compilation process by sacrificing typechecking?
+- TypeScript: difference between interfaces and types?
 
 ### Node.js
 - What kind of streams are there in nodejs?
@@ -149,11 +156,21 @@ which recently discovered. What will be your actions?
 - Redux principles: What is pure function? Where it came from (what paradigm)?
 - How "reselect library" improves performance? How do you measure perf? When reselect optimizations not working?
 - What is main difference between Redux and Facebook Flux library?
-- Could you explain difference between `$scope.$eval` and `$scope.$evalAsync`?
 - What better in your opinion - one-way or two-way data binding, why? What is better to use (prefer) in Angular?
 - What performance optimization techniques do you know in AngularJS?
 - Describe lifecycle of directive in AngularJS?
 - What are general recipes for optimizing Angular application?
+
+### Angular.JS
+- What is disadvantages of using filters in templates in angular.js?
+- What is the theoretically recommended maximum of the watchers in your angular page?
+- What is the git submodules and why you should or not should to use them?
+- How you can improve infinite scroll performance in angular?
+- Describe how digest cycle works?
+- Could you explain difference between `$scope.$eval` and `$scope.$evalAsync`?
+
+### Angular X
+- How does Angular2 AoT compilation works?
 
 ### Interview
 - How do you rate candidates? What skills do you rate as the most important for the company?
@@ -268,6 +285,7 @@ which recently discovered. What will be your actions?
   - Расскажите о нагружённом и сложном дне за последние 2 недели. Что пошло не так? Как вы с этим справились?
 - Have you demotivated employees? Tell us what you have taken to correct the situation.
   - Были ли у вас демотивированные сотрудники? Расскажите, что вы предприняли, чтобы исправить ситуацию.
+- You have a release, and the PM asks you to include a feature that is 95% ready, with no tests, but the client wants to see it on PROD. What do you say to your PM?
 
 ### Task
 ```Text
