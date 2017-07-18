@@ -98,7 +98,6 @@
 - What kind of perfomance issues do you know?
 - Which tools you use to trace them?
 - Which technices you know or applied to solve memory leaks? Describe some of your personal experience in solving such issues.
-<<<<<<< HEAD
 - What tools do you use while improving performance?
 - How did you know that the performance improved?
 - Which memory leaks have you ever found and what tools did you use to find them?
