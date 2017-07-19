@@ -39,6 +39,7 @@
 - Can you describe what are the main differences between Jasmine and Mocha?
 
 ### JS && DOM && CSS
+- What is the event delegation? What type of events we have in (browser) JavaScript? What is the idea of event delegation?
 - What is WeakMap/Symbol/Set?
 - Why do we need iterators in js (ES6)? How we can use them?
 - What const is for, your opinion?
@@ -98,6 +99,7 @@
 - What kind of perfomance issues do you know?
 - Which tools you use to trace them?
 - Which technices you know or applied to solve memory leaks? Describe some of your personal experience in solving such issues.
+- What is the memory leak? What are the reasons of memory leaks? What kind of coding errors can cause them?
 - What tools do you use while improving performance?
 - How did you know that the performance improved?
 - Which memory leaks have you ever found and what tools did you use to find them?
@@ -146,7 +148,6 @@
 - Declarative vs Imperative programming in its application to Angular and/or HTML/CSS/JS apps. Shortcomings and benefits of each approach.
 - How would you convince me to change my webapp to use Angular.js if I were a customer and I didn’t know anything about technical details?
 - Your favorite FE framework.
-<<<<<<< HEAD
 - Imagine you need to choose framework for your new project. Which criterias will you use to make decision?
   - What are you actions when you need to decide between two libraries that you’ll use in your project?
 - Imagine you write your own custom framework for project needs. Could you please compare your framework with anyone, you're familiar with (AngularJS, Backbone, etc). Do you adree that developing custom framework might be efficient than using existing one and why?
@@ -189,8 +190,8 @@
 
 ### Team managment & Communication
 - Team management: how to ensure, team is on track, how to delegate tasks
-- Roman, imagine the conflict situation in your team: 2 specialists discussed 2 different approaches and this technical issue became personal conflict. Your actions?
-- Roman, you wrote that one of your goal is to take a role of JS/FE Technical Lead. Can you explain what responsibilities you do on this Project as a TL?
+- Imagine the conflict situation in your team: 2 specialists discussed 2 different approaches and this technical issue became personal conflict. Your actions?
+- You wrote that one of your goal is to take a role of JS/FE Technical Lead. Can you explain what responsibilities you do on this Project as a TL?
 - How would you handle a conflict between two skilled developer in your team regarding preferred coding style?
 - What would you do if one of your team mates unexpectedly become ill for two weeks? How would you reduce the negative effect in such situation?
 - How do you share your knowledge across the team and abroad? Is it some tech-talk sessions, or workshops, or trainings, or you just come to each person in case of any difficulties and come up with the solution together?
@@ -247,6 +248,7 @@
 - Describe your steps if you realize that you wrongly estimated some stories and sprint fails?
 
 ### Other
+- Please, name the basic steps of software development process
 - What sources did you use for keeping you knowledge up to date and learning new thing?
 - How do you keep yourself up-to-date?
 - What FED technologies do you consider that will be very popular in the nearest future. How do you exploit and promote them?
