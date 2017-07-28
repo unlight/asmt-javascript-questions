@@ -21,6 +21,7 @@
 - Which code review tools you know/use? Your criterias for good code.
 - Do you use software design principles in your practice? Could you tell which design principles do you use and why you need them?
 - How do you understand that the code is good/bad?
+- What is Temporal Coupling?
 
 ### Unit/Integration testing
 - How you can use tests while re-writing legacy code?
@@ -50,7 +51,6 @@
 - Which types of inheritance implementation in JS you know/use?
   - Could you expain all ways how to inherit one object from another?
 - ES5 / ES6 new features || language supersets (e.g. SASS, TypeScript)
-- What CSS preprocessors you know/use? Pros and cons?
 - What was the most interesting crossbrowser issue you came across? How did you fix it?
 - What techniques you can use to avoid callback hell?
 - Please talk about DOM event handling (capturing/bubbling).
@@ -80,11 +80,16 @@
 - Is there multi-threading in JavaScript?
 - What is immutability? Why do you need it? How can you ensure immutability in JavaScript?
 
+### CSS
+- What is specificity in CSS?
+- What CSS preprocessors you know/use? Pros and cons?
+
 ### TypeScript
 - Compare TypeScript vs Flow, what features they provide, what problems they solve?
 - What are the disadvantages of TypeScript?
 - How we can increase the speed of TypeScript compilation process by sacrificing typechecking?
 - TypeScript: difference between interfaces and types?
+- What are generic types in Typescript?
 
 ### Node.js
 - What kind of streams are there in nodejs?
@@ -127,7 +132,7 @@
 - What is Flux? What's the difference from MV*-like approach?
 - Redux vs Flux - differences?
 - What is IoC?
-- Which software architecrure treds you faced with? Docker and microservices?
+- Which software architecrure trends you faced with? Docker and microservices?
 - What criterias you will use to select technologies for your project?
 - How you will you design/implement 2-way binding without 3rd party libraries and frameworks? Which patterns you will use?
 - How you will improve functionality of 3rd party library on your project?
@@ -220,6 +225,7 @@
 - Recall last conflict/hard situation with client. How it was solved? What could be done better?
 - What is better delegate task or responsibilty?
 - Client said “This new feature should be done today?”, but you understand you’ll need a week to finish it. What will you do?
+- Imagine one of your colleagues has written some code that you don't agree with. What will you do?
 
 ### Agile Scrum Kanban
 - What is scrum methodology? 
@@ -246,6 +252,8 @@
 - Let’s imagine you need to create ‘Send Email’ form from Gmail. What are your estimates and why?
 - What estimation techniques do you know?
 - Describe your steps if you realize that you wrongly estimated some stories and sprint fails?
+- What will you do if the customer wants to change some story in the middle or at the end of the sprint?
+- From your opinion, which artefact is unnesessary in SCRUM?
 
 ### Other
 - Please, name the basic steps of software development process
