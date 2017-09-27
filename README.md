@@ -133,13 +133,13 @@ apply and digest calls - why do you use it?
 
 
 ###React
-Speaking about the React. What’s the difference between state and props?
-How do you implement the situation when child component wants to update the parent state? What are the good practices?
-What happens when you call setState in React?
-When you are working with the SPA application what are the signs that you need use state container (like Redux in React)?
-What does immutable mean to you?
-Speaking about the DOM, what kind of DOM does React use?
-What are the difference between virtual DOM and shadow DOM?
+- Speaking about the React. What’s the difference between state and props?
+- How do you implement the situation when child component wants to update the parent state? What are the good practices?
+- What happens when you call setState in React?
+- When you are working with the SPA application what are the signs that you need use state container (like Redux in React)?
+- What does immutable mean to you?
+- Speaking about the DOM, what kind of DOM does React use?
+- What are the difference between virtual DOM and shadow DOM?
 
 
 ###Interview
