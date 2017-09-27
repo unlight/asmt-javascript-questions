@@ -18,6 +18,9 @@
 - Как вы поддерживаете качество кода на проекте?
 - Какая методология разработки используется на вашем проекте?
 - Что тебе не нравится и что можно бы было улучшить?
+- Do you measure cyclomatic complexity of the codebase?
+- Can you tell some negative parts of using SOLID principles?
+
 
 ###Unit/Integration testing
 - What are the differences between TDD and BDD aproaches. What JS frameworks for TDD/BDD you know?
@@ -52,7 +55,7 @@
 - Common dev environent setup? What dev environment should include for FE app?
 - Talk about build process/CI on your project. Why Grunt/Gulp/... is used?
 - What build tools are you using in your projects? Why?
-- Как бы ты сделал ... (проект, процесс, воркфлоу) в идеальном мире (сговорчивый заказчик, есть все необходымые тулы и время).
+- As you know ES6 classes are just syntactic sugar. What happens in reality when you create class A? What happens when you want inherit class B from class A?
 
 ###Browser internals. Performance optimization.
 - Possible ways to speedup your javascript code execution time? Hidden classes? try/catch?
@@ -63,9 +66,18 @@
 - Which tools you use to trace them?
 - Which technices you know or applied to solve memory leaks? Describe some of your personal experience in solving such issues.
 - Какие memory leaks тебе удалось найти и что для их поиска ты использовал?
+- Parallel threads on FE. Have you worked with them?
+- What are the downsides of working with web workers?
+- What the difference between asynchronous and parallel threads?
+- Could you please describe in details what performance techniques have you applied for your project?
+- How do you achieve lazy loading of the modules?
+- What about the first load time for SPA and MPA applications?
+- Have you had any caching issues within your application?
+
 
 ###Security
 - Same origin policy, CORS
+- What are the techniques that can help to avoid the same origin policy?
 - Different types of XSS?
 - How do you prevent XSS?
 - Content Security Policy headers values, quote few examples?
@@ -91,6 +103,16 @@
 - Could you mention a few design patterns you usually use in your front end code?
 - Расскажи чем отличаются  MV* паттерны? Назови их реализации на примере фреймворков.
 - Расскажи побольше про какие-нибудь паттерны, которые тебе приходилось использовать?
+- When you are working with the SPA application what are the signs that you need use state container (like Redux in React)?
+- What does immutable mean to you?
+- Can you please give us a short overview of singlepage applications and multipage applications and pros and cons for using which of them?
+
+
+###Build Tools
+- Could you please compare Gulp and Webpack?
+- Do you use Webpack on your project? Which version?
+- Why are you using CI on your project?
+
 
 ###Frameworks
 - What is the main difference from your point of view between JS framework XXX and YYY.
@@ -101,6 +123,24 @@
 - Your favorite FE framework.
 - Представь, что тебе нужно подобрать фреймворк для проекта. На чем ты будешь основываться при его выборе?
 - Если пилишь свой фреймворк на проекте. Выбери любой из тебе знакомых (AngularJS, Backbone, ect) и сравни с разрабатываемым. Найди плюсы и минусы. Почему выбор пал на разработку именно кастомного фреймворка.
+- What is the problem with angular watchers? Can you please describe it?
+- Speaking about components model in Angular - did it use any optimizations for not to iterate all watchers?
+- How do you structure angular modules within your application? How do you identify that is a separate module. If you have one big module for all application - what are pros and cons of such approach.
+- How do you usually integrate not Angular based 3rd party modules in your application?
+apply and digest calls - why do you use it?
+- What was the most complex architectural decision you made on your project?
+- Concerning interceptors in Angular have you worked with them?
+
+
+###React
+Speaking about the React. What’s the difference between state and props?
+How do you implement the situation when child component wants to update the parent state? What are the good practices?
+What happens when you call setState in React?
+When you are working with the SPA application what are the signs that you need use state container (like Redux in React)?
+What does immutable mean to you?
+Speaking about the DOM, what kind of DOM does React use?
+What are the difference between virtual DOM and shadow DOM?
+
 
 ###Interview
 - How do you rate candidates? What skills do you rate as the most important for the company?
@@ -145,6 +185,16 @@
 - Describe your actions when customer wants a new feature, and hesitating which way to go - adapt already existing CMS system, or write everything from a scratch.
 - Customer requests to migrate Desktop version of the product to mobile devices. Could you please describe your specific questions?
 - Some developer from project you technically lead/coordinate came to you with proposal to apply ES6 (ECMA2015). Your actions? Will you reject that proposal? Apply? Why it worth or not worth to apply?
+- How do you think what are the roles of Scrum Master?
+- In a scale of 100% how much time (in percent) you are spending for a coding part and how much for a leadership?
+- How do you keep the development base high in your team?
+- Have you participated in Scrum of Scrums session?
+- Do you remember an internal conflict that you have to resolve somehow?
+- Как бы ты сделал ... (проект, процесс, воркфлоу) в идеальном мире (сговорчивый заказчик, есть все необходымые тулы и время).
+- About time management on your project - how do you ensure that estimations are met? How do you manage work in your Agile environment to make sure that there are enough time that estimations are met?
+- Question about speaking with the customer. You know customer may be a big problem when you are choosing framework or technology stack. What are the main points that you can use to prove customer that your technology stack is the best choice? What if customer wants to add obsolete plugin to your brand new Angular 4 application - what will be your arguments?
+
+
 
 ###Agile Scrum Kanban
 - Методология скрам. Стори поинты. + как вы эстимируете таски-стори на проекте.
@@ -165,6 +215,8 @@
 - How do you estimate your tasks?
 - What would you do in case you realize that you won’t be able to deliver planned functionality in time and your estimations were wrong?
 - How do you prioritize your tasks? How do you estimate your tasks? For example you need to decide which task is more important for you right now. What will you do?
+- What software development techniques are you using on your project and what other techniques do you know?
+- In which case do you use Agile methodologies and in which case Waterfall methodology?
 
 
 ###Other
@@ -188,6 +240,8 @@
 - Have you ever had the chance to improve a process in any area of your work?
 - Расскажите о нагружённом и сложном дне за последние 2 недели. Что пошло не так? Как вы с этим справились?
 - Были ли у вас демотивированные сотрудники? Расскажите, что вы предприняли, чтобы исправить ситуацию. 
+- Have you faced any failures in your development career and if you had please describe the worst one and what you’ve learned from it?
+
 
 
 ###Task
