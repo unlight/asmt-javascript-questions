@@ -22,6 +22,7 @@
 - Do you use software design principles in your practice? Could you tell which design principles do you use and why you need them?
 - How do you understand that the code is good/bad?
 - What is Temporal Coupling?
+- What code metrics (software metrics) do you know?
 
 ### Unit/Integration testing
 - How you can use tests while re-writing legacy code?
@@ -71,7 +72,7 @@
 - Explain difference between microtask and macrotask within an event loop context.
 - What is asynchronous programming, and why is it important in JavaScript?
 - What's the difference between an "attribute" and a "property" in DOM?
-- Could you describe pitfalls you may face with in development for mobile devices? (What are the difficulties you may face)
+- Could you describe the pitfalls you may face with in development for mobile devices? (What are the difficulties you may face?) (Is there a special aspects of developing applications in JavaScript for mobile (browser) and for desktop (browser) ?)
 - What is the difference between arrow function and function expression? 
 - Can you compare the managing async code by promises and by Observables (pros and cons)?
 - What is strict mode? what are the advantages and disadvantages to using it?
@@ -79,6 +80,7 @@
 - What does * { box-sizing: border-box; } do? What are its advantages?
 - Is there multi-threading in JavaScript?
 - What is immutability? Why do you need it? How can you ensure immutability in JavaScript?
+- Please, talk about ES2015 modules, what ES2015 modules exports? What is the difference between commonjs modules and ES2015 modules?
 
 ### CSS
 - What is specificity in CSS?
@@ -87,7 +89,7 @@
 ### TypeScript
 - Compare TypeScript vs Flow, what features they provide, what problems they solve?
 - What are the disadvantages of TypeScript?
-- How we can increase the speed of TypeScript compilation process by sacrificing typechecking?
+- How we can increase the speed of TypeScript compilation process? Can we sacrifice typechecking?
 - TypeScript: difference between interfaces and types?
 - What are generic types in Typescript?
 
@@ -114,6 +116,8 @@
 - Which technices you now or applied to solve memory leaks? Describe some of your personal experience in solving such issues.
 - How do you understand that you need to improve performance of your application? How do you convince client that you need to do this.
 - How would you improve website load time / performance?
+- Imagine you have table and there are hundreds columns and thousands of rows. What kind of optimization techniques can be applied?
+- What general optimization techniques do you know?
 
 ### Security
 - Same origin policy, CORS.
@@ -144,6 +148,8 @@
 - What the differences between MV* patterns? Could you give examples of MV* patterns in frameworks?
 - Could you tell more about patterns you had to use?
 - Explain pros and cons of development using the components approach?
+- In your opinion, what is better composition or inheritance? Why?
+- Please compare GraphQL and REST (pros and cons)?
 
 ### Frameworks
 - What is the main difference from your point of view between JS framework XXX and YYY.
@@ -173,6 +179,7 @@
 - How you can improve infinite scroll performance in angular?
 - Describe how digest cycle works?
 - Could you explain difference between `$scope.$eval` and `$scope.$evalAsync`?
+- Explain what is linking function and type of linking function?
 
 ### Angular X
 - How does Angular2 AoT compilation works?
@@ -192,6 +199,7 @@
 - Could you please describe the University Trainee Program? What was your role?
 - What results of mentoring (for yourself) can you mention?
 - What techniques did you use while mentoring?
+- How did you measure mentee’s success? (You was a mentor, how did you understand that your mentoring was successful)?
 
 ### Team managment & Communication
 - Team management: how to ensure, team is on track, how to delegate tasks
@@ -245,15 +253,14 @@
 - In general, how do you provide user story estimations? Is it story points or just actual time(days/hours)? In your opinion, which approach is better?
 - If you underestimated some task and don’t have more time to implement it. What will be your actions?
 - Please explain process from getting Visual Design until the approved prototype.
-- How do you estimate your tasks?
 - What would you do in case you realize that you won’t be able to deliver planned functionality in time and your estimations were wrong?
-- How do you prioritize your tasks? How do you estimate your tasks? For example you need to decide which task is more important for you right now. What will you do?
+- How do you prioritize your tasks? For example you need to decide which task is more important for you right now. What will you do?
 - What is better under-estimation or over-estimation?
-- Let’s imagine you need to create ‘Send Email’ form from Gmail. What are your estimates and why?
+- Let’s imagine you need to create ‘Send Email’ form from Gmail. What will be your estimates and why?
 - What estimation techniques do you know?
 - Describe your steps if you realize that you wrongly estimated some stories and sprint fails?
 - What will you do if the customer wants to change some story in the middle or at the end of the sprint?
-- From your opinion, which artefact is unnesessary in SCRUM?
+- In your opinion, which artefact is unnesessary in SCRUM?
 
 ### Other
 - Please, name the basic steps of software development process
@@ -261,14 +268,15 @@
 - How do you keep yourself up-to-date?
 - What FED technologies do you consider that will be very popular in the nearest future. How do you exploit and promote them?
 - Self-development - ways, techniques, practices, etc.
-- What is your goal to become a senior software engineer?
+- What motivates you to be a senior software engineer? (What is your goal to become a senior software engineer?) (What motivates you to get the next level?)
   - What does it mean to be a Senior Specialist? Please explain new challenges and responsibilities.
   - What is the difference between L2 and L3 engineer?
 - What challenges or big goals would you like set for yourself being Cheif Software Engineer.
 - What concrete problems have you faced so far? Mention a few examples.
 - What would you do if you can’t find the solution?
 - Please describe your problem solving skill a bit more. What do you exactly do if you face a problem?
-- How do you prioritize your tasks? How do you estimate your tasks? For example you need to decide which task is more important for you right now. What will you do?
+- How do you estimate your tasks?
+- How do you prioritize your tasks? For example you need to decide which task is more important for you right now. What will you do?
 - What was your most challenging task?
 - What Front End technologies have you used recently on your projects?
 - How do you improve the quality of your work? How can you be sure that your work is well done?
@@ -296,6 +304,101 @@
 - Have you demotivated employees? Tell us what you have taken to correct the situation.
   - Были ли у вас демотивированные сотрудники? Расскажите, что вы предприняли, чтобы исправить ситуацию.
 - You have a release, and the PM asks you to include a feature that is 95% ready, with no tests, but the client wants to see it on PROD. What do you say to your PM?
+- Do you know any webpack's competitors?
+
+### Unsorted
+- How did you decide between choosing webpack and gulp/grunt setup?
+- What are pros and cons of Scrum? What’s the difference between Scrum and Kanban? When can’t we use SCRUM?
+- What are your actions when you/someone discovers a bug in production?
+- What kind of documents you’ve created recently?
+- Let’s imagine you need to create ‘Send Email’ form from Gmail. What are your estimates and why?
+- What estimation approaches do you know?
+- How to improve performance of react components?
+- What is Pure Component in react?
+- Redux principles: What is pure function? Where it came from (What paradigm)?
+- How "reselect library" improves performance? How do you measure perf? When reselect optimizations not working?
+- What is main difference between Redux and Facebook Flux library?
+- You mentioned in your form that you mentored junior and newcomer. Was it successful and why? How do you think you may improve your mentoring skills?
+- What techniques did you use? What was the outcome?
+- How did you measure mentee’s success?
+- Mentoring vs Coaching?
+- Could you describe pitfalls you may face with in development for mobile devices? (What are the difficulties you may face )
+- What’s the difference between WeakMap and WeakSet? What’s their difference from Map and Set?
+- What better in your opinion - one-way or two-way data binding, why?
+- How would you improve website load time / performance?
+- What design patterns you are using mostly in your code? What problems design patterns help to solve?
+- You wrote you performed code reviews, What do you usually do (or will do) if somebody doesn't agree with your review comments?
+- Explain delegation process, how you delegate tasks to team members?
+- Imagine you need to choose framework for your new project. Which criterias will you use to make decision?
+- How do you mentor? Please describe a mentoring session held by you.
+- Could you expain all ways how to inherit one object from another?
+- When we need to care about memory leaks and start search for performance issues? Describe how will you deal with that performance issues?
+- Describe the difference between `<script>`, `<script async>` and `<script defer>`
+- Describe the weak spots of angularjs and how can we deal with them?
+- How do you understand that you need to improve performance of your application? How do you convince client that you need to do this.
+- What SOLID is? Could you tell how do you use solid in your work?
+- TDD & BDD, what the difference, which one do you prefer?
+- Please describe how do you manage and eliminate a technical debt on your project?
+- How do you convince client to eliminate tech debt?
+- Describe your steps if you realize that you wrongly estimated some stories and sprint fails?
+- Could you explain a role of Key Developer on a project?
+- What is a recent technical challenge you experienced and how did you solve it?
+- What’s the difference between L2 and L3?
+- What are pros and cons of Scrum? What’s the difference between Scrum and Kanban? When can’t we use SCRUM?
+- How do you deal with conflicts during the code review process?
+- How do you explain ‘dependency injection’ pattern to someone who has no experience working with it?
+- How do you debug performance issues?
+- What are your actions when you/someone discovers a bug in production?
+- What kind of documents you’ve created recently?
+- What are you actions when you need to decide between two libraries that you’ll use in your project?
+- How do you improve your team lead and team work skills? How do you measure your success?
+- How we can increase the speed of TypeScript compilation process?
+- Choose any design pattern and describe it.
+- Let’s says that you have node app, and some dependency has critical vulnerability which recently discovered. What will be your actions?
+- Node. How method pipe works?
+- What kind of streams are exists in nodejs?
+- How do you understand CI/CD processes?
+- What “feature complete" means for you?
+- What performance optimization techniques do you know in AngularJS?
+- Please describe lifecycle of directive in AngularJS?
+- What is the main difference between gulp and grunt? What is better?
+- How is organized build process on your project? What can be improved?
+- What is extreme programming? What techniques did you use?
+- What is the difference between responsive and adaptive web design? What would you choose and why?
+- How do you understand that the code is good/bad?
+- What does Key Developer role mean?
+- What techniques did you use while mentoring?
+- Recall last conflict/hard situation with client. How it was solved? What could be done better?
+- When Scrum/Kanban can’t be used?
+- What is better White or Black testing?
+- What estimation techniques do you know?
+- How do you decide what to delegate and why? => What is better delegate task or responsibilty?
+- You’r starting new project from scratch, what frameworks, arch patterns would you choose and why?
+- Client said “This new feature should be done today?”, but you understand you’ll need a week to finish it. What will you do?
+- What programming paradigms do you know?
+- Your website is making a lot of HTTP with over 40 icons and a couple very large gif images. How could you reduce the number of requests?
+- What is your favorite features in latest ES specifications?
+- Describe your steps if you realize that you wrongly estimated some stories and sprint fails?
+- What Cross-Origin Resource Sharing (CORS) technics do you know?
+- Do you you know something about HTTP protocol version 2, what advantages does it provide in comparison of HTTP v1?
+- Your customer wants a new feature to be done, which requires usage of some absolutely new technology which you have no idea about. Your actions in this case?
+- Explain pros and cons of animation with CSS and Javascript?
+- How do you deal with conflicts during the code review process?
+- How would you define velocity of your team, and what it is used for?
+- What is code review, what kind of tools do we have for that? Different types of code review? In the context of CI which is better and why?
+- What is mobile first design? How would you create a new material design in Angular?
+- Imagine one of your colleagues has written some code that you don't agree with. What will you do?
+- Is there multi-threading in JavaScript?
+- How to understand that it's time to refactor something? How can you convince client that refactoring is needed?
+- What is immutability? Why do you need it? How can you ensure immutability in JavaScript?
+- What is better under-estimation or over-estimation? Why?
+- You have a release, and the PM asks you to include a feature that is 95% ready, with no tests, but the client wants to see it on PROD. What do you say to your PM?
+- Post and pre commit code review what are the pros and cons? In the context of CI, which oen would you use and why?
+- Angular 1 vs 2. Comparison. What are the main improvements?
+- Dependency injection. What is it needed for?
+- What is the functional programming? And the difference between OOP. Pros and cons. Have you used lodash or other functional libs?
+- How to convince some members of your team in that their approach is wrong?
+- What is disadvantages of using filters in templates in AngularJs?
 
 ### Terms in few words / one sentence
 * closure
