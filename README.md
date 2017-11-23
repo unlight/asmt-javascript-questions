@@ -297,6 +297,12 @@
   - Были ли у вас демотивированные сотрудники? Расскажите, что вы предприняли, чтобы исправить ситуацию.
 - You have a release, and the PM asks you to include a feature that is 95% ready, with no tests, but the client wants to see it on PROD. What do you say to your PM?
 
+### Terms in few words / one sentence
+* closure
+* observable
+* specificity
+* temporal dead zone
+
 ### Task
 ```Text
 You are requested as an architect and technology consultant into project
