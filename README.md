@@ -23,6 +23,8 @@
 - How do you understand that the code is good/bad?
 - What is Temporal Coupling?
 - What code metrics (software metrics) do you know?
+- Do you measure cyclomatic complexity of the codebase?
+- Can you tell some negative parts of using SOLID principles?
 
 ### Unit/Integration testing
 - How you can use tests while re-writing legacy code?
@@ -81,6 +83,7 @@
 - Is there multi-threading in JavaScript?
 - What is immutability? Why do you need it? How can you ensure immutability in JavaScript?
 - Please, talk about ES2015 modules, what ES2015 modules exports? What is the difference between commonjs modules and ES2015 modules?
+- As you know ES6 classes are just syntactic sugar. What happens in reality when you create class A? What happens when you want inherit class B from class A?
 
 ### CSS
 - What is specificity in CSS?
@@ -118,14 +121,25 @@
 - How would you improve website load time / performance?
 - Imagine you have table and there are hundreds columns and thousands of rows. What kind of optimization techniques can be applied?
 - What general optimization techniques do you know?
+- Parallel threads on FE. Have you worked with them?
+- What are the downsides of working with web workers?
+- What the difference between asynchronous and parallel threads?
+- Could you please describe in details what performance techniques have you applied for your project?
+- How do you achieve lazy loading of the modules?
+- What about the first load time for SPA and MPA applications?
+- Have you had any caching issues within your application?
 
 ### Security
 - Same origin policy, CORS.
+- What are the techniques that can help to avoid the same origin policy?
 - Different types of XSS?
 - How do you prevent XSS?
 - Content Security Policy headers values, quote few examples?
 - How would you initiate manual security code review of Node.js applications?
 - Let’s says that you have node application, and some dependency has critical vulnerability which recently discovered. What will be your actions?
+- When you are working with the SPA application what are the signs that you need use state container (like Redux in React)?
+- What does immutable mean to you?
+- Can you please give us a short overview of singlepage applications and multipage applications and pros and cons for using which of them?
 
 ### Architecture and design patterns
 - Please compare pros and cons for Single-page and Multi-page application approaches.
@@ -151,6 +165,11 @@
 - In your opinion, what is better composition or inheritance? Why?
 - Please compare GraphQL and REST (pros and cons)?
 
+### Build Tools
+- Could you please compare Gulp and Webpack?
+- Do you use Webpack on your project? Which version?
+- Why are you using CI on your project?
+
 ### Frameworks
 - What is the main difference from your point of view between JS framework XXX and YYY.
 - What are benefits and shortcomings of AngularJS, what do you like in 2.0 (if know)
@@ -171,6 +190,13 @@
 - What performance optimization techniques do you know in AngularJS?
 - Describe lifecycle of directive in AngularJS?
 - What are general recipes for optimizing Angular application?
+- What is the problem with angular watchers? Can you please describe it?
+- Speaking about components model in Angular - did it use any optimizations for not to iterate all watchers?
+- How do you structure angular modules within your application? How do you identify that is a separate module. If you have one big module for all application - what are pros and cons of such approach.
+- How do you usually integrate not Angular based 3rd party modules in your application?
+apply and digest calls - why do you use it?
+- What was the most complex architectural decision you made on your project?
+- Concerning interceptors in Angular have you worked with them?
 
 ### React
 - Speaking about the React. What’s the difference between state and props?
@@ -199,6 +225,14 @@
 - Describe how would you interview people for the certain project. What kind of questions or topics are most important to get the right candidate?
 - What are the most important things for you in the feedback for the intreviewee?
 - Have you participated in technical interviews? If yes, what was the most challenged question from you?
+- How do you think what are the roles of Scrum Master?
+- In a scale of 100% how much time (in percent) you are spending for a coding part and how much for a leadership?
+- How do you keep the development base high in your team?
+- Have you participated in Scrum of Scrums session?
+- Do you remember an internal conflict that you have to resolve somehow?
+- Как бы ты сделал ... (проект, процесс, воркфлоу) в идеальном мире (сговорчивый заказчик, есть все необходымые тулы и время).
+- About time management on your project - how do you ensure that estimations are met? How do you manage work in your Agile environment to make sure that there are enough time that estimations are met?
+- Question about speaking with the customer. You know customer may be a big problem when you are choosing framework or technology stack. What are the main points that you can use to prove customer that your technology stack is the best choice? What if customer wants to add obsolete plugin to your brand new Angular 4 application - what will be your arguments?
 
 ### Mentoring
 - What was the most difficult/interesting/exciting about mentoring new people?
@@ -270,6 +304,8 @@
 - Describe your steps if you realize that you wrongly estimated some stories and sprint fails?
 - What will you do if the customer wants to change some story in the middle or at the end of the sprint?
 - In your opinion, which artefact is unnesessary in SCRUM?
+- What software development techniques are you using on your project and what other techniques do you know?
+- In which case do you use Agile methodologies and in which case Waterfall methodology?
 
 ### Other
 - Please, name the basic steps of software development process
@@ -314,6 +350,7 @@
   - Были ли у вас демотивированные сотрудники? Расскажите, что вы предприняли, чтобы исправить ситуацию.
 - You have a release, and the PM asks you to include a feature that is 95% ready, with no tests, but the client wants to see it on PROD. What do you say to your PM?
 - Do you know any webpack's competitors?
+- Have you faced any failures in your development career and if you had please describe the worst one and what you’ve learned from it?
 
 ### Unsorted
 - How did you decide between choosing webpack and gulp/grunt setup?
@@ -408,7 +445,6 @@
 - What is the functional programming? And the difference between OOP. Pros and cons. Have you used lodash or other functional libs?
 - How to convince some members of your team in that their approach is wrong?
 - What is disadvantages of using filters in templates in AngularJs?
-- Have you faced any failures in your development career and if you had please describe the worst one and what you’ve learned from it?
 
 ### Terms in few words / one sentence
 * closure
