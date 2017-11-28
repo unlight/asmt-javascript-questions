@@ -172,6 +172,15 @@
 - Describe lifecycle of directive in AngularJS?
 - What are general recipes for optimizing Angular application?
 
+### React
+- Speaking about the React. What’s the difference between state and props?
+- How do you implement the situation when child component wants to update the parent state? What are the good practices?
+- What happens when you call setState in React?
+- When you are working with the SPA application what are the signs that you need use state container (like Redux in React)?
+- What does immutable mean to you?
+- Speaking about the DOM, what kind of DOM does React use?
+- What are the difference between virtual DOM and shadow DOM?
+
 ### Angular.JS
 - What is disadvantages of using filters in templates in angular.js?
 - What is the theoretically recommended maximum of the watchers in your angular page?
@@ -399,6 +408,7 @@
 - What is the functional programming? And the difference between OOP. Pros and cons. Have you used lodash or other functional libs?
 - How to convince some members of your team in that their approach is wrong?
 - What is disadvantages of using filters in templates in AngularJs?
+- Have you faced any failures in your development career and if you had please describe the worst one and what you’ve learned from it?
 
 ### Terms in few words / one sentence
 * closure
