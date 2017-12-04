@@ -41,6 +41,7 @@
 - What is better White or Black testing?
 - What is the Testing Pyramid?
 - Can you describe what are the main differences between Jasmine and Mocha?
+- How you can be sure that code is really tested? What does 100% code coverage means?
 
 ### JS && DOM && CSS
 - What is the event delegation? What type of events we have in (browser) JavaScript? What is the idea of event delegation?
