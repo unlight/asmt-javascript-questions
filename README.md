@@ -1,5 +1,13 @@
 ## Real questions from committees
 
+### Common
+- What motivates you to be a senior software engineer? (What is your goal to become a senior software engineer?) (What motivates you to get the next level?)
+  - What does it mean to be a Senior Specialist? Please explain new challenges and responsibilities.
+  - What is the difference between L2 and L3 engineer?
+- What challenges or big goals would you like set for yourself being Cheif Software Engineer.
+- Please, name the phases of Software Development Life Cycle?
+- Talk about SDLC in context of your project.
+
 ### Code Quality
 - Which code review tools you know/use? Your criterias for good code.
 - What is code review in your opinion?
@@ -25,6 +33,7 @@
 - What code metrics (software metrics) do you know?
 - Do you measure cyclomatic complexity of the codebase?
 - Can you tell some negative parts of using SOLID principles?
+- Which ESLint plugins do you use on your projects? Why these?
 
 ### Unit/Integration testing
 - How you can use tests while re-writing legacy code?
@@ -207,6 +216,9 @@ apply and digest calls - why do you use it?
 - What does immutable mean to you?
 - Speaking about the DOM, what kind of DOM does React use?
 - What are the difference between virtual DOM and shadow DOM?
+- What React patterns are being used mostly in your code?
+- Could you please describe three Redux fundamental principles?
+- Stateful and stateless components. What is better? Pros and cons?
 
 ### Angular.JS
 - What is disadvantages of using filters in templates in angular.js?
@@ -278,6 +290,7 @@ apply and digest calls - why do you use it?
 - What is better delegate task or responsibilty?
 - Client said “This new feature should be done today?”, but you understand you’ll need a week to finish it. What will you do?
 - Imagine one of your colleagues has written some code that you don't agree with. What will you do?
+- If a member of your team makes mistakes, delivers buggy code, make delays, what actions would you take?
 
 ### Agile Scrum Kanban
 - What is scrum methodology? 
@@ -287,7 +300,6 @@ apply and digest calls - why do you use it?
 - What differences between Scrum and Kanban metodologies. Why Scrum/Kanban/Waterfall is more applicable for you project?
   - When can’t we use SCRUM?
 - What you will do in case you see that your original estimation was wrong and you need overtime to finish till deadline.
-- Talk about SDLC in context of your project.
 - What is the use of Planning & Retrospective meetings?
 - In your opinion, why is agile methodology so popular today?
 - Could you please explain your current development process? Have you ever thought about switching to another development process (Kanban)? Are there advantages or disadvantages in switching to Kanban?
@@ -314,10 +326,6 @@ apply and digest calls - why do you use it?
 - How do you keep yourself up-to-date?
 - What FED technologies do you consider that will be very popular in the nearest future. How do you exploit and promote them?
 - Self-development - ways, techniques, practices, etc.
-- What motivates you to be a senior software engineer? (What is your goal to become a senior software engineer?) (What motivates you to get the next level?)
-  - What does it mean to be a Senior Specialist? Please explain new challenges and responsibilities.
-  - What is the difference between L2 and L3 engineer?
-- What challenges or big goals would you like set for yourself being Cheif Software Engineer.
 - What concrete problems have you faced so far? Mention a few examples.
 - What would you do if you can’t find the solution?
 - Please describe your problem solving skill a bit more. What do you exactly do if you face a problem?
@@ -446,6 +454,9 @@ apply and digest calls - why do you use it?
 - What is the functional programming? And the difference between OOP. Pros and cons. Have you used lodash or other functional libs?
 - How to convince some members of your team in that their approach is wrong?
 - What is disadvantages of using filters in templates in AngularJs?
+- Git Flow. What kind of Git branching strategies are you familiar with? What are benefits and drawbacks of those?
+- What are the differences between code quality and product quality?
+- You've a burden of obsolete technology on the project, utilized by the customer. It will slow down future progress of the project. What shoul you do?
 
 ### Terms in few words / one sentence
 * closure
