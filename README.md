@@ -34,6 +34,7 @@
 - Do you measure cyclomatic complexity of the codebase?
 - Can you tell some negative parts of using SOLID principles?
 - Which ESLint plugins do you use on your projects? Why these?
+- What are the differences between code quality and product quality?
 
 ### Unit/Integration testing
 - How you can use tests while re-writing legacy code?
@@ -319,6 +320,7 @@ apply and digest calls - why do you use it?
 - In your opinion, which artefact is unnesessary in SCRUM?
 - What software development techniques are you using on your project and what other techniques do you know?
 - In which case do you use Agile methodologies and in which case Waterfall methodology?
+- Lets imagine that you are a scrum master. What will you do, if customer wants to implement a brand new feature right now, and your team is in the middle of current sprint?
 
 ### Other
 - Please, name the basic steps of software development process
@@ -457,6 +459,70 @@ apply and digest calls - why do you use it?
 - Git Flow. What kind of Git branching strategies are you familiar with? What are benefits and drawbacks of those?
 - What are the differences between code quality and product quality?
 - You've a burden of obsolete technology on the project, utilized by the customer. It will slow down future progress of the project. What shoul you do?
+- What are the main pros and cons SPA?
+- From the architectural point of view Pros and Cons of SPA?
+- Memory leaks in SPA, what's the main cause? How to detect?
+- When leading project, how did you delegated tasks and controled subordinates?
+- Situ: customer says "the application is slow"? What are your steps?
+- From the grow form - flux. What can you say about?
+- What's the difference between flux and redux?
+- Situ: you start a new prj. Which framework to select?
+- How did you do the code review? Which tools did you use?
+- What do you know about technical debts?
+- What's the process of technical debt management?
+- Which design patterns you think the most useful for you?
+- What kind of conflicts did you have? How you managed them? What would you change if you could?
+- Do you have an idea of kind of conflicts may happen between people?
+- What types of conflicts may, must and must not be escalated? Briefly.
+- Have you ever had failure tasks and/or projects?
+- Vanilla script (pure js) - the good and bad things?
+- What role does testing play in dev cycle?
+- "5" == 5 is it good or bad?
+- Which are ES6 features you like?
+- What transpilers do you use?
+- What Webpack is able to do?
+- Any static analysis tools?
+- Where did you get the soft-skill knowledge from?
+- Which SW development methodologies do you know?
+- How do you do your technical tasks estimations?
+- When would you use a component over a directive?
+- Why is isolate scope an important concept?
+- How does the $digest cycle work?
+- Give an example of an immutable operation in JavaScript
+- Why ng-controller - is bad?
+- What is an http interceptor and what are good use cases for it?
+- What is $q and when would you use it?
+- What is the difference between a stateful and stateless component?
+- When is convenient to make refactoring?
+- What is the difference between Stub & Mock?
+- AAA (Arrange, Act, Assert) pattern is a common way of writing unit test
+- What are the benefits and drawbacks of unit tests? SOLID and TDD?
+- What's the difference between unit, functional and E2E tests?
+- How do you handle subjective (opinions vs facts) disputes?
+- What are the main attributes of a leader?
+- What is it to be a mentor/presentor? How do you organize the process, strategy? Resources?
+- How did you handle (mis)communication with your last customer?
+- What are the main goals of conferences and tech/social meetups for you?
+- How do you handle bad mood?
+- How does supervision affect your productivity (delivery)?
+- What's the difference between Scrum and Kanban?
+- What software best practices did you use on your last project and why?
+- Why would you refactor Angular app into React? What reasons?
+- How did you improve performance on the last project and what kind?
+- What is quality code?
+- What are the pros/cons of JS? Compare to other langs, if poss. What benefits/downsides did ES6 bring in?
+- What's the difference between FE vs BE development?
+- What do you like about Node the most, if you were to compare it to other BE frameworks/languages?
+- What tools do you use during refactoring and debugging?
+- What was, in your opinion, the best architecture of one of your projects and why?
+- How is responsive design different to static?
+- How did you split tasks with others (pair programming, delegation, coordination etc)?
+- How do you handle broken CI pipeline?
+- What will you do, if the requirements are unclear?
+- What kind of ideas did you suggest to improve your last project? How did it help?
+- How do you estimate a project? Especially alone. What factors, metrics do you use?
+- If a member of your team makes mistakes, delivers buggy code, make delays, what actions would you take? 
+- What were pitfalls of migrations from Angular 1 to Angular 2?
 
 ### Terms in few words / one sentence
 * closure
