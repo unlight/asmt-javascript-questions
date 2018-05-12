@@ -51,7 +51,7 @@
 - What is better White or Black testing?
 - What is the Testing Pyramid?
 - Can you describe what are the main differences between Jasmine and Mocha?
-- How you can be sure that code is really tested? What does 100% code coverage means?
+- How you can be sure that code is really tested? What does 100% code coverage means? (AAA, Mutation testing)
 
 ### JS && DOM && CSS
 - What is the event delegation? What type of events we have in (browser) JavaScript? What is the idea of event delegation?
@@ -108,6 +108,7 @@
 - What are generic types in Typescript?
 
 ### Node.js
+- What is an error-first callback?
 - What kind of streams are there in nodejs?
 - Describe how method pipe works.
 - The difference between nextTick and setImmediate?
@@ -175,6 +176,8 @@
 - Explain pros and cons of development using the components approach?
 - In your opinion, what is better composition or inheritance? Why?
 - Please compare GraphQL and REST (pros and cons)?
+  - How we will implement version in GraphQL?
+- What microservices patterns do you know?
 
 ### Build Tools
 - Could you please compare Gulp and Webpack?
@@ -205,7 +208,7 @@
 - Speaking about components model in Angular - did it use any optimizations for not to iterate all watchers?
 - How do you structure angular modules within your application? How do you identify that is a separate module. If you have one big module for all application - what are pros and cons of such approach.
 - How do you usually integrate not Angular based 3rd party modules in your application?
-apply and digest calls - why do you use it?
+- Apply and digest calls - why do you use it?
 - What was the most complex architectural decision you made on your project?
 - Concerning interceptors in Angular have you worked with them?
 
