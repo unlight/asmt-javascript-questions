@@ -112,6 +112,7 @@
 - What kind of streams are there in nodejs?
 - Describe how method pipe works.
 - The difference between nextTick and setImmediate?
+- Can you name some points from twelve factor application methodology?
 
 ### Browser internals. Performance optimization.
 - Possible ways to speedup your javascript code execution time? Hidden classes? try/catch?
