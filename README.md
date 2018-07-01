@@ -68,7 +68,7 @@
 - What was the most interesting crossbrowser issue you came across? How did you fix it?
 - What techniques you can use to avoid callback hell?
 - Please talk about DOM event handling (capturing/bubbling).
-- Please explane the event bubbling process in JS.
+- Please explain the event bubbling process in JS.
 - What is the difference between preventDefault and stopPropagation event methods?
 - What were your pitfalls for delivering project audit while you were contributing to the FED CC
 - Browser caching possibilities?
@@ -152,7 +152,7 @@
 - Let’s says that you have node application, and some dependency has critical vulnerability which recently discovered. What will be your actions?
 - When you are working with the SPA application what are the signs that you need use state container (like Redux in React)?
 - What does immutable mean to you?
-- Can you please give us a short overview of singlepage applications and multipage applications and pros and cons for using which of them?
+- Can you please give us a short overview of single page applications and multi page applications and pros and cons for using which of them?
 
 ### Architecture and design patterns
 - Please compare pros and cons for Single-page and Multi-page application approaches.
