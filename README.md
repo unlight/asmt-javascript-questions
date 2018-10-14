@@ -113,6 +113,9 @@
 - Describe how method pipe works.
 - The difference between nextTick and setImmediate?
 - Can you name some points from twelve factor application methodology?
+- What is the preferred method of resolving unhandled exceptions in Node.js?
+- How does Node.js support multi-processor platforms, and does it fully utilize all processor resources?
+- How do you understand non-blocking and async functions? Is there a difference between them?
 
 ### Browser internals. Performance optimization.
 - Possible ways to speedup your javascript code execution time? Hidden classes? try/catch?
@@ -224,6 +227,11 @@
 - What React patterns are being used mostly in your code?
 - Could you please describe three Redux fundamental principles?
 - Stateful and stateless components. What is better? Pros and cons?
+- What’s the main selling point of React to you. Why did you chose to go with React?
+- What is JSX and how come we can write it in our JavaScript code — how do the browser recognize it?
+- What are the main 2 types of components you can declare in React, and when would you use one over another.
+- Since we mentioned life cycle — can you walk me through the cycle of mounting a stateful component? What functions are called in what order? Where would you place a request for data from the API? Why?
+- Can you explain the idea of “lifting the state up”?
 
 ### Angular.JS
 - What is disadvantages of using filters in templates in angular.js?
@@ -563,6 +571,7 @@ Team: 4 persons with different skillsets (D1, D2, D3, D4)
 - https://github.com/ChiperSoft/InterviewThis
 - http://davidshariff.com/blog/preparing-for-a-front-end-web-development-interview-in-2017/
 - https://medium.freecodecamp.com/cracking-the-front-end-interview-9a34cd46237
+- https://github.com/sudheerj/reactjs-interview-questions
 - https://github.com/MaximAbramchuck/awesome-interview-questions
   - https://github.com/MaximAbramchuck/awesome-interview-questions#javascript
   - https://github.com/MaximAbramchuck/awesome-interview-questions#angularjs
