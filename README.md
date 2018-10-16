@@ -117,6 +117,7 @@
 - How does Node.js support multi-processor platforms, and does it fully utilize all processor resources?
 - How do you understand non-blocking and async functions? Is there a difference between them?
 - Can you name the rules of interoperability between CJS and ESM modules?
+- What are the advantages and disadvantages of doing npm shrinkwrap or package lock?
 
 ### Browser internals. Performance optimization.
 - Possible ways to speedup your javascript code execution time? Hidden classes? try/catch?
