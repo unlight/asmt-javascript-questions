@@ -116,6 +116,7 @@
 - What is the preferred method of resolving unhandled exceptions in Node.js?
 - How does Node.js support multi-processor platforms, and does it fully utilize all processor resources?
 - How do you understand non-blocking and async functions? Is there a difference between them?
+- Can you name the rules of interoperability between CJS and ESM modules?
 
 ### Browser internals. Performance optimization.
 - Possible ways to speedup your javascript code execution time? Hidden classes? try/catch?
