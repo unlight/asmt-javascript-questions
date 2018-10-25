@@ -44,21 +44,22 @@
     - Which problems these solves?
     - Best practices?
     - Drawback? Coverage?
-- What are benefits of TDD?
+- What are benefits of using TDD?
 - How do you test your code?
 - How will you convince your team member to start using TDD? What are the benefits of TDD?
 - What is your Unit Tests covering process? What is acceptable Code Coverage level?
-- What is better White or Black testing?
+- What is White and Black testing? What is better?
 - What is the Testing Pyramid?
 - Can you describe what are the main differences between Jasmine and Mocha?
 - How you can be sure that code is really tested? What does 100% code coverage means? (AAA, Mutation testing)
 
 ### JS && DOM && CSS
+- What ways of managing asynchronous code do you know?
 - What is the event delegation? What type of events we have in (browser) JavaScript? What is the idea of event delegation?
 - What is WeakMap/Symbol/Set?
 - Why do we need iterators in js (ES6)? How we can use them?
 - What const is for, your opinion?
-- ES6 Temporal dead-zone
+- What is Temporal dead-zone?
 - What is the difference between “for .. in” loop vs “for .. of” loop?
 - What is the difference between Array.from() and Array.of()
 - If I define 2 functions with the same name in the same scope, which one will be executed?
@@ -198,7 +199,7 @@
 - Declarative vs Imperative programming in its application to Angular and/or HTML/CSS/JS apps. Shortcomings and benefits of each approach.
 - How would you convince me to change my webapp to use Angular.js if I were a customer and I didn’t know anything about technical details?
 - Your favorite FE framework.
-- Imagine you need to choose framework for your new project. Which criterias will you use to make decision?
+- Imagine you need to choose library or framework for your new project. Which criterias will you use to make decision?
   - What are you actions when you need to decide between two libraries that you’ll use in your project?
 - Imagine you write your own custom framework for project needs. Could you please compare your framework with anyone, you're familiar with (AngularJS, Backbone, etc). Do you adree that developing custom framework might be efficient than using existing one and why?
 - How to improve performance of react components?
@@ -234,6 +235,9 @@
 - What are the main 2 types of components you can declare in React, and when would you use one over another.
 - Since we mentioned life cycle — can you walk me through the cycle of mounting a stateful component? What functions are called in what order? Where would you place a request for data from the API? Why?
 - Can you explain the idea of “lifting the state up”?
+- How to improve performance of react components?
+- What is Pure Component in react?
+- Redux principles: What is pure function? Where it came from (What paradigm)?
 
 ### Angular.JS
 - What is disadvantages of using filters in templates in angular.js?
@@ -306,6 +310,7 @@
 - Client said “This new feature should be done today?”, but you understand you’ll need a week to finish it. What will you do?
 - Imagine one of your colleagues has written some code that you don't agree with. What will you do?
 - If a member of your team makes mistakes, delivers buggy code, make delays, what actions would you take?
+- Customer is very angry with your team, because the team deployed some defect to production. How should your team leader behave?
 
 ### Agile Scrum Kanban
 - What is scrum methodology? 
@@ -376,6 +381,7 @@
 - You have a release, and the PM asks you to include a feature that is 95% ready, with no tests, but the client wants to see it on PROD. What do you say to your PM?
 - Do you know any webpack's competitors?
 - Have you faced any failures in your development career and if you had please describe the worst one and what you’ve learned from it?
+- Imagine you are leaving a project where you was responsible for some big complex undocumented area. Your teammates are not competent in this area and you should make knowledge transfer for them. Your steps?
 
 ### Unsorted
 - How did you decide between choosing webpack and gulp/grunt setup?
@@ -384,9 +390,6 @@
 - What kind of documents you’ve created recently?
 - Let’s imagine you need to create ‘Send Email’ form from Gmail. What are your estimates and why?
 - What estimation approaches do you know?
-- How to improve performance of react components?
-- What is Pure Component in react?
-- Redux principles: What is pure function? Where it came from (What paradigm)?
 - How "reselect library" improves performance? How do you measure perf? When reselect optimizations not working?
 - What is main difference between Redux and Facebook Flux library?
 - You mentioned in your form that you mentored junior and newcomer. Was it successful and why? How do you think you may improve your mentoring skills?
