@@ -51,7 +51,7 @@
 - What is White and Black testing? What is better?
 - What is the Testing Pyramid?
 - Can you describe what are the main differences between Jasmine and Mocha?
-- How you can be sure that code is really tested? What does 100% code coverage means? (AAA, Mutation testing)
+- How you can be sure that code is really tested? How we can prevent cheating on unit test? What does 100% code coverage means? (AAA, Mutation testing)
 
 ### JS && DOM && CSS
 - What ways of managing asynchronous code do you know?
@@ -119,6 +119,31 @@
 - How do you understand non-blocking and async functions? Is there a difference between them?
 - Can you name the rules of interoperability between CJS and ESM modules?
 - What are the advantages and disadvantages of doing npm shrinkwrap or package lock?
+- You mentioned in your grow a migration from express.js to koa.js. I would like to understand better the motivation between the change between both technologies, because both solutions are quite similar and share lots of middlewares let's say. And as well, during the migration what were the challenges and how did you overcome those.
+- Can you name few use cases where Node.js will not be a good option to develop your service?
+- If somebody come to you and say instead of nodejs we should use Java/Go/Rust. What would you tell them?
+- How can we write e2e tests for an API and which tools can we use for that?
+  - GraphQL. Did you wrote any e2e tests?
+- Could you share some experience about deploying Node.js services? Also please name few Do and Don'ts for this process.
+- You developed some feature. It has been tested and release to Prod. After release you realized that another feature stopped working completely. Your actions?
+- Which parts of data you store in which type of storage based on what requirements? (sql dbs vs redis vs buses (rabbit mq) vs others (mongo, neo, etc)
+- How would you make sure when you integrate with frontend team (other backend team) that you guys build the same bridge?
+- Have you heard about customer based contract tests?
+- Are there any specific challenges in GraphQL regarding to authorization?
+- I'm implementing an API that returns some data from a raw text file. The txt file have few megabytes and for know I need process it in every request. How can I improve this workflow? (cache, read file using streams, batch processing)
+  - Imagine that you are populating this file (at some point you have not enough memory to keep it there).
+- Which approach better streams or generators (pros and cons)?
+- About static code analysis tools, what you use and why these tools?
+- What caching strategies do you know? (memoization, etc.)
+- What is difference between replication and sharding?
+- How do you test serverless applications?
+- How can we found causes of exceptions with memory leaks?
+- Have you an experience catching memory leaks in production? (What if memory contains sensitive data)
+- Please compare GraphQL and REST and RPC (pros and cons)?
+- Your teammates constantly postpone code review to the end of the sprint. As a result the changes are merged in the last day of the sprint, QAs could not verify them on time. What to do?
+- Let's say you've been given a task to find the weakest places in your solution/process to improve them. What will you do?
+- Imagine you are leaving a project where you was responsible for some big complex undocumented area. Your teammates are not competent in this area and you should make knowledge transfer for them. Your steps?
+
 
 ### Browser internals. Performance optimization.
 - Possible ways to speedup your javascript code execution time? Hidden classes? try/catch?
@@ -155,7 +180,7 @@
 - How do you prevent XSS?
 - Content Security Policy headers values, quote few examples?
 - How would you initiate manual security code review of Node.js applications?
-- Let’s says that you have node application, and some dependency has critical vulnerability which recently discovered. What will be your actions?
+- Let’s says that you have node application, and some indirect dependency (3-4th level) has critical vulnerability which recently discovered. How you could solve this?
 - When you are working with the SPA application what are the signs that you need use state container (like Redux in React)?
 - What does immutable mean to you?
 - Can you please give us a short overview of single page applications and multi page applications and pros and cons for using which of them?
