@@ -143,7 +143,19 @@
 - Your teammates constantly postpone code review to the end of the sprint. As a result the changes are merged in the last day of the sprint, QAs could not verify them on time. What to do?
 - Let's say you've been given a task to find the weakest places in your solution/process to improve them. What will you do?
 - Imagine you are leaving a project where you was responsible for some big complex undocumented area. Your teammates are not competent in this area and you should make knowledge transfer for them. Your steps?
-
+- You mentioned Kafka for a messaging pattern, did you considered other options like RabbitMQ? Still in the messaging topic what was the challenge to you implementing this pattern?
+- How we can debug an application that implement this messaging pattern? Which tools we can use for this?
+- TA team, asked to you to interview and evaluate a candidate that is potentially a senior based on TA pitch. But during the interview you saw that the candidate take a lot of time for answer questions that should not be a problem for a senior developer. How did you conduct the interview after realizing that the candidate is more Junior than Senior?
+- A new project is about to start and you're selected to be the Key Developer, the client provide just few basic information about the project and they asked you to start picking some technologies to the project. Initially it will be just some CRUD to serve a mobile client. What is the stack that you select for this first draft and why?
+- You started with MongoDB after you realized that your data is more relational, did you continue with MongoDB?
+- Let’s says that you have node application, and some indirect dependency (3-4th level) has critical vulnerability which recently discovered. How you could solve this?
+- How do you think, when the team should update the version of the framework to the newer one?
+- What will you do if you feel that your competency is not enough to finish the assigned task in estimated time?
+- Could you please describe how EventLoop phases work and the difference between nextTick() and setImmediate()?
+- Have you ever had experience with scaling node processes?
+- How can we organize auth for services in microservices architecture?
+- What design patterns for microservices do you know and have tried it?
+- How do you usually do security check of your code?
 
 ### Browser internals. Performance optimization.
 - Possible ways to speedup your javascript code execution time? Hidden classes? try/catch?
@@ -565,6 +577,46 @@
 - How do you estimate a project? Especially alone. What factors, metrics do you use?
 - If a member of your team makes mistakes, delivers buggy code, make delays, what actions would you take? 
 - What were pitfalls of migrations from Angular 1 to Angular 2?
+- What books or online resources would you receommend to D2 developer who wants to become a D3 ?
+- Imagine your project is being suddenly prioritized, so THREE new developers are being added to it, and it is your task to quickly onboard them and make sure they are productive. What will be your steps in such situation ?
+- Imagine a new feature request is made for a web app your team is supporting. You are the most trusted developer in the team and you are responsible for everything in the app to run smoothly but this feature will be implemented by another developer (maybe more junior). How will you ensure quality and consistency of the produced code, APIs, etc?
+- What was the most recent technical thing you got excited on?
+- What are the benefits and drawback of SPA?
+- How do you handle asynchronous actions in Redux? Could you compare it to RxJS ?
+- Is Javascript Single or Multy threaded language ? How to make it multi threaded ? 
+- What are the benefits of FlexBox model?
+- Describe the Flex/Flash stack
+- Why https is important?
+- Web Security - XSS/CSRF
+- Are you familiar with Web Accessibility requirements?
+- Progressive Web Apps / Service workers?
+- What the "Single Responsibility" principle stands for?
+- When is a function called "pure function"?
+- What does REST stand for? When is an API reffered to as a REST API? What methods can you recall from the HTTP protocol?
+- Can you describe at least two design patterns in detail - like what kind of problem do they solve and how?
+- What kind of performance issue are common in FE apps and how do you approach improving performance and UX on the client?
+- What version control workflow would you recommend to a team of 5-7 developer ?
+- You developed some feature. It has been tested and release to Prod. After release you realized that another feature stopped working completely. Your actions?
+- Git conflicts resolving, rollback of changes.
+- How do you perform code review. What do you pay attention to during code review
+- What is story point?
+- Estimation techniques, metrics, why we estimate
+- Imagine a situation - you designed an architectural approach for a new feature, but other developer also has alternative approach - the two are incompatible. What would be your steps in such situation ?
+- You need to implement code review process in your new project. What should you recommend and why?
+- Describe onboarding plan of new developers
+- Your role makes you responsible for choosing between two alternative technologies. Given that there's also a team of developers who would later work with the techonology, what variables will you take into account when making the choice?
+- What are the key attributes of a good unit test?
+- When you realize that it's time to refactor some code?
+- You (as D3 developer) and two D2 developers have been asssigned to a mature project (but new to you), which was not actively maintained but suddenly needs new features. Client wants to make sure no regressions affect current production application. How would you approach this ? What would you suggest ? 
+- What are the benefits of e2e tests?
+- How would you approach refactoring of legacy code?
+- What is Test Driven Development and have you applied it and how?
+- How will you deal with the situation when different developers in the team have different preferences for coding styles like indentation, naming, etc. What practices and tools come to mind?
+- Let's imagine the situation: You are working on some buisness critical bug.  You almost finished the story but QA found a critical bug that is not fixed yet in browser.  For exmaple it's related to specific behavior on iPhone, last versions of iOs etc. This bug is up and running in Safari bugtracket for last 4 years. What would you do?
+- You are leading development team. One of your team members offended a customer ocasionally. How will you deal with this situation?
+- Customer is very angry with your team, because the team deployed some defect to production. How should your team leader behave?
+- You've noticed contradictory requirements in spec, what will be your actions to fix this issue
+- You start working on a new project and the client is very communicative and supportive, you even spend some time on site at the client office and get introduced to the project but big part of the requirements are only shared verbally or in in an ad-hoc on-demand manner. What risks does that hide and how can you address the situation in advance? Also if the issues are already a fact and now the client is putting the blame on the development team, how will you defend your point of view?
 
 ### Terms in few words / one sentence
 * closure
