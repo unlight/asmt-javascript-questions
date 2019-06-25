@@ -35,6 +35,7 @@
 - Can you tell some negative parts of using SOLID principles?
 - Which ESLint plugins do you use on your projects? Why these?
 - What are the differences between code quality and product quality?
+- What is your checklist when you are doing codereview?
 
 ### Unit/Integration testing
 - How you can use tests while re-writing legacy code?
@@ -396,7 +397,7 @@
 - Could you please tell us what your daily routine in the office is like?
 - Could you let us know how you usually follow the latest technologies? Can you mention a few example you just read about and being excited to make a try with?
 - Have you ever had the chance to improve a process in any area of your work?
-- What are your actions when you/someone discovers a bug in production?
+- Describe your actions when you discovers a bug in production?
 - What kind of documents you’ve created recently (UML diagrams, etc.)?
 - Describe how do you manage and eliminate a technical debt on your project?
 - How do you convince client to eliminate tech debt?
@@ -466,7 +467,6 @@
 - How we can increase the speed of TypeScript compilation process?
 - Choose any design pattern and describe it.
 - Let’s says that you have node app, and some dependency has critical vulnerability which recently discovered. What will be your actions?
-- Node. How method pipe works?
 - What kind of streams are exists in nodejs?
 - How do you understand CI/CD processes?
 - What “feature complete" means for you?
