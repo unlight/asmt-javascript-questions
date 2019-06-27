@@ -35,7 +35,7 @@
 - Can you tell some negative parts of using SOLID principles?
 - Which ESLint plugins do you use on your projects? Why these?
 - What are the differences between code quality and product quality?
-- What is your checklist when you are doing codereview?
+- What is your checklist when you are doing code review?
 
 ### Unit/Integration testing
 - How you can use tests while re-writing legacy code?
@@ -165,14 +165,11 @@
 - How do you usally deal with perfomance issues?
 - What kind of perfomance issues do you know?
 - Which tools you use to trace them?
-- Which technices you know or applied to solve memory leaks? Describe some of your personal experience in solving such issues.
+- Which techniques do you know or applied to solve memory leaks? Describe some of your personal experience in solving such issues.
 - What is the memory leak? What are the reasons of memory leaks? What kind of coding errors can cause them?
 - What tools do you use while improving performance?
 - How did you know that the performance improved?
 - Which memory leaks have you ever found and what tools did you use to find them?
-- How do you usally deal with perfomance issues?
-- What kind of perfomance issues do you know?
-- Which tools you use to trace them?
 - Which technices you now or applied to solve memory leaks? Describe some of your personal experience in solving such issues.
 - How do you understand that you need to improve performance of your application? How do you convince client that you need to do this.
 - How would you improve website load time / performance?
@@ -185,6 +182,7 @@
 - How do you achieve lazy loading of the modules?
 - What about the first load time for SPA and MPA applications?
 - Have you had any caching issues within your application?
+- Let's imagine situation, your customer is saying that animation is slow how you can prove him that it does not?
 
 ### Security
 - Same origin policy, CORS.
