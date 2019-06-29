@@ -622,9 +622,9 @@
 - Let's imagine situation when you, as a key developer, have a requirement from customer to make some very specific implementation of some feature. After analizing this story, you find out that implementing it in proposed way will severely hurt maintainability and will heavily slowdown development process of next features. What will you do?
 - How will you estimate task you have never performed? 
 - Supposing, you are working on a web-page development project. One day you receive a message from QA engineer, that the site stutters and doesn't load fast enough. Could you, please, describe your steps for issue investigation?
-- "As you know, JS engines mechanism bases on Event loop. Please, describe how this fact impacts the way of JS code implementation.
-- Could you name some best practices that are ground on it?"
-- "Name the features of good quality unit tests.
+- As you know, JS engines mechanism bases on Event loop. Please, describe how this fact impacts the way of JS code implementation.
+- Could you name some best practices that are ground on it?
+- Name the features of good quality unit tests.
 - What are benefits of writing tests beforehand actual code implementation?"
 - Could you, please, give definion of optimal test coverage? Which procentage will you call the best one for particular project.
 - Could you please name, what recent changes took place in React, and their reasons?
