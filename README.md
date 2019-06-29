@@ -36,6 +36,7 @@
 - Which ESLint plugins do you use on your projects? Why these?
 - What are the differences between code quality and product quality?
 - What is your checklist when you are doing code review?
+- Different types of code review, pre-push, post-push (pros/cons)?
 
 ### Unit/Integration testing
 - How you can use tests while re-writing legacy code?
@@ -615,6 +616,26 @@
 - Customer is very angry with your team, because the team deployed some defect to production. How should your team leader behave?
 - You've noticed contradictory requirements in spec, what will be your actions to fix this issue
 - You start working on a new project and the client is very communicative and supportive, you even spend some time on site at the client office and get introduced to the project but big part of the requirements are only shared verbally or in in an ad-hoc on-demand manner. What risks does that hide and how can you address the situation in advance? Also if the issues are already a fact and now the client is putting the blame on the development team, how will you defend your point of view?
+- How do you provide codereview. List of things to look for during CR. Name some of code smells
+- Have you ever used flow in your project? Could you please tell us about Flow. What are benefits of its usage?
+- Unit test vs e2e? Coverage at you project? How private methods can be tested?
+- Let's imagine situation when you, as a key developer, have a requirement from customer to make some very specific implementation of some feature. After analizing this story, you find out that implementing it in proposed way will severely hurt maintainability and will heavily slowdown development process of next features. What will you do?
+- How will you estimate task you have never performed? 
+- Supposing, you are working on a web-page development project. One day you receive a message from QA engineer, that the site stutters and doesn't load fast enough. Could you, please, describe your steps for issue investigation?
+- "As you know, JS engines mechanism bases on Event loop. Please, describe how this fact impacts the way of JS code implementation.
+- Could you name some best practices that are ground on it?"
+- "Name the features of good quality unit tests.
+- What are benefits of writing tests beforehand actual code implementation?"
+- Could you, please, give definion of optimal test coverage? Which procentage will you call the best one for particular project.
+- Could you please name, what recent changes took place in React, and their reasons?
+- Let's consider the following case: you are lack for devs in your team, and you are provided with a candidate, which has good tech skills, but you noticed that he is not quite pleasant to deal with. What would you do?
+- Consider situation, when one of your subordinates made a mistake, which broke up the build. Please, describe your reaction and actions you will undertake.
+- Great mistake during the overall experience
+- Imagine that you are leading the small team. One of your subordinate is late for the morning meeting. He does this systematically. What will you do?
+- One of your colleagues created а commit for new feature (it includes back and front files, refactored and new components). Let's say around 1000 lines. How will you review this commit? What kind of pieces of code will have special attention?
+- How to work Virtual DOM in React (what is VDOM, what is the puprose to use it)? What is the difference between DOM and VDOM?
+- You have a task to develop an UIKit, the design is done and approved. What kind of libraries/tools/technologies will you use? Describe how will you organise the structure? 
+- Can you please name your favorite design patterns? (if it will be the observable or singleton ask about others) How to these knowledge could help you in you daily work?
 
 ### Terms in few words / one sentence
 * closure
@@ -659,9 +680,3 @@ Team: 4 persons with different skillsets (D1, D2, D3, D4)
   - https://github.com/MaximAbramchuck/awesome-interview-questions#nodejs
   - https://github.com/MaximAbramchuck/awesome-interview-questions#reactjs
   - https://github.com/MaximAbramchuck/awesome-interview-questions#design-patterns
-
-## Contributors
-* [Aliaksei Krauchanka](https://github.com/npocto-leshka)
-* [Alex Karlovich](https://github.com/karlovich)
-* [Vadzim Budzishyn](https://github.com/vadzimbudzishyn)
-* [Kanstantsin Yatskevich](https://github.com/kyatskevich)
