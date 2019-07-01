@@ -636,6 +636,24 @@
 - How to work Virtual DOM in React (what is VDOM, what is the puprose to use it)? What is the difference between DOM and VDOM?
 - You have a task to develop an UIKit, the design is done and approved. What kind of libraries/tools/technologies will you use? Describe how will you organise the structure? 
 - Can you please name your favorite design patterns? (if it will be the observable or singleton ask about others) How to these knowledge could help you in you daily work?
+- Imagine that you are leading the small team. One of your subordinate is late for the morning meeting. He does this systematically. What will you do?
+- One of your colleagues created а commit for new feature (it includes back and front files, refactored and new components). Let's say around 1000 lines. How will you review this commit? What kind of pieces of code will have special attention? [Split big commit into small chunks with back and front. Add new component without integration separately. Cover by unit tests (e2e depends on requirement, but good to mention about them). If it has doc for the components or UIkit, update it (mention about doc).]
+- How to work Virtual DOM in React (what is VDOM, what is the puprose to use it)? What is the difference between DOM and VDOM?
+- You have a task to develop an UIKit, the design is done and approved. What kind of libraries/tools/technologies will you use? Describe how will you organise the structure? 
+- Can you please name your favorite design patterns? (if it will be the observable or singleton ask about others) How to these knowledge could help you in you daily work?
+- Supposing, you are working on a web-page development project. One day you receive a message from QA engineer, that the site stutters and doesn't load fast enough. Could you, please, describe your steps for issue investigation?
+- As you know, JS engines mechanism bases on Event loop. Please, describe how this fact impacts the way of JS code implementation. Could you name some best practices that are ground on it?
+- Name the features of good quality unit tests. What are benefits of writing tests beforehand actual code implementation?
+- Could you, please, give definion of optimal test coverage? Which procentage will you call the best one for particular project.
+- Could you please name, what recent changes took place in React, and their reasons?
+- Let's consider the following case: you are lack for devs in your team, and you are provided with a candidate, which has good tech skills, but you noticed that he is not quite pleasant to deal with. What would you do?
+- Consider situation, when one of your subordinates made a mistake, which broke up the build. Please, describe your reaction and actions you will undertake.
+- Great mistake during the overall experience
+- How do you provide codereview. List of things to look for during CR. Name some of code smells
+- Have you ever used flow in your project? Could you please tell us about Flow. What are benefits of its usage?
+- Unit test vs e2e? Coverage at you project? How private methods can be tested?
+- Let's imagine situation when you, as a key developer, have a requirement from customer to make some very specific implementation of some feature. After analizing this story, you find out that implementing it in proposed way will severely hurt maintainability and will heavily slowdown development process of next features. What will you do?
+- How will you estimate task you have never performed? 
 
 ### Terms in few words / one sentence
 * closure
