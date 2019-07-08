@@ -190,14 +190,14 @@
 - What are the techniques that can help to avoid the same origin policy?
 - Different types of XSS?
 - How do you prevent XSS?
-- Content Security Policy headers values, quote few examples?
+- Content Security Policy headers values, name few examples?
 - How would you initiate manual security code review of Node.js applications?
 - Let’s says that you have node application, and some indirect dependency (3-4th level) has critical vulnerability which recently discovered. How you could solve this?
 - When you are working with the SPA application what are the signs that you need use state container (like Redux in React)?
 - What does immutable mean to you?
-- Can you please give us a short overview of single page applications and multi page applications and pros and cons for using which of them?
 
 ### Architecture and design patterns
+- Can you please give us a short overview of single page applications and multi page applications and pros and cons for using which of them?
 - Please compare pros and cons for Single-page and Multi-page application approaches.
 - Can you provide examples of GoF/GRASP patterns used on your project? Do you know what SOLID principles means?
 - Why are design patterns are good?
@@ -284,6 +284,7 @@
 - Describe how digest cycle works?
 - Could you explain difference between `$scope.$eval` and `$scope.$evalAsync`?
 - Explain what is linking function and type of linking function?
+- For nested directives, what will be the order of execution of directive functions? (compile, controller, pre-link, post-link)
 
 ### Angular X
 - How does Angular2 AoT compilation works?
@@ -312,6 +313,7 @@
 - What results of mentoring (for yourself) can you mention?
 - What techniques did you use while mentoring?
 - How did you measure mentee’s success? (You was a mentor, how did you understand that your mentoring was successful)?
+- Mentoring vs Coaching?
 
 ### Team managment & Communication
 - Team management: how to ensure, team is on track, how to delegate tasks
@@ -431,8 +433,6 @@
 - What is main difference between Redux and Facebook Flux library?
 - You mentioned in your form that you mentored junior and newcomer. Was it successful and why? How do you think you may improve your mentoring skills?
 - What techniques did you use? What was the outcome?
-- How did you measure mentee’s success?
-- Mentoring vs Coaching?
 - Could you describe pitfalls you may face with in development for mobile devices? (What are the difficulties you may face )
 - What’s the difference between WeakMap and WeakSet? What’s their difference from Map and Set?
 - What better in your opinion - one-way or two-way data binding, why?
@@ -654,6 +654,19 @@
 - Unit test vs e2e? Coverage at you project? How private methods can be tested?
 - Let's imagine situation when you, as a key developer, have a requirement from customer to make some very specific implementation of some feature. After analizing this story, you find out that implementing it in proposed way will severely hurt maintainability and will heavily slowdown development process of next features. What will you do?
 - How will you estimate task you have never performed? 
+- From your point of view, what is the most major accomplishment or achievement,that gives you most confidence in becoming a D3?
+- How do you keep yourself in good technical state? (read smth, where?) What was the latest?
+- You used to work with C, Java, Python. Could you compare ecosystems of those languages with JavaScript? highlight some cons pros? npm vs other
+- Difference between technical debt vs code smell? Any tools to measuretechnical debt? (you decrease, how to measure?)
+- You have chosen Redux as the state container on your project. Could you tell us about strong sides of using Redux? Does it have any disadvantages? Do I need to keep all my state into Redux or Should I ever use react internal state? 
+- Software development changes at an insanely rapid rate, especially if you compare it to some other fields. What do you do if you are facing with sutation when you need to learn new technology? How do you develop a growth mindset?
+- In your form you mentioned that you use Agile on your current project.  Can you say the pros and cons of Agile methodology?
+- Let’s imagine the situation, You had to juggle several tasks at the same time. How did you organize your time?
+- What does clean code mean for you? How do you ensure code quality?
+- Could you please describe a current CI/CD process in your project if any? If yes, could it be improved somehow? If no, how would you organize it?
+- What is the difference between functional and nonfunctional requirements? Examples?
+- What does an accessible application mean for you? Do you consider a11y problems in your current project?
+- Do you have any experience of task delegation? How would you choose the right person? How would you control that?
 
 ### Terms in few words / one sentence
 * closure
