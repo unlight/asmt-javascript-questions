@@ -1,3 +1,69 @@
+## Requirements for L3 position according to the GCF
+
+### Development Experience and Knowledge
+- Has at least one skill at Advanced or Expert level in UPSA profile related to a candidate's primary technology stack. So, for JS discipline - one Javascript Framework at Advanced or Expert level.
+- Has at least one programming paradigm on Advanced level: Functional or Object oriented. (for Javascript discipline).
+- Ability to independently establish development tools, environment for a maintainable project.
+- Broad vision of pros and cons of different technologies from a primary stack. For example, for JS discipline - high level comparison of JS frameworks, understanding different approaches how to organize modularity on the project.
+- Knowledge of patterns and best practices
+- Dependency Injection and Inversion of Control
+- Active participation in project architectural decisions
+- Architecture enhancements on corresponding project layer
+- Successful mentoring experience: involvement into mentoring programs in a role of Mentor or mentoring/coaching of juniors / less experienced colleagues on the project(s).
+- Participation in technical interviewing: the candidates from market or/and the candidates for the particular project.
+- At least intermediate knowledge and experience of performance optimization (Angular, React or other Framework Optimization Techniques, JavaScript Performance Optimization Techniques, JavaScript Profiling and Debugging, Critical Rendering Path, Repaint Re-flow Understanding, Network Optimizations, JavaScript Obfuscation and Minification, Memory Leaks (detection tools and prevention))
+
+### Software Process Knowledge
+- At least basic knowledge of SDLC phases and models and understanding how SDLC is organized on current project. For example, knowledge of how many environments exist and understanding of the release strategy.
+- Knowledge of the most popular software development methodologies
+- Basic knowledge of Extreme Programming Practices (XP)
+- Knowledge of Continuous Integration, Continuous Delivery, Continuous Deployment
+- Knowledge of Gitflow, Release and Branching Strategies ( Understanding current project release strategy, for example, knowledge of how many environments exist and the flow of their update )
+- Self-management skills and support and/or supervise less experienced colleagues.
+- Knowledge of different planning techniques and methods on at least intermediate level.
+- Follows established development process, can describe its pros and cons. Can see issues and suggest improvements in the existing process.
+- Knows best engineering practices, understands their pros and cons. Can describe which ones are used on the current project and why.
+
+### Design and Documentation Skills
+- Able to create coding style guidelines, technical and project documentation including high-quality documentation for code.
+- Experience in creating system design and/or its components. Can explain pros and cons of the proposed solution.
+- Code review or / and an assessment of an existing project's solution.
+- Able to present project/layer architecture using diagrams (like UML, etc.)
+
+### Roles Played on a Project
+- Key developer role.
+- Takes responsibility for some key project areas / layer
+- 1+ year in Key Development Role real project role (not formal UPSA position title)
+- Plays active part in the process of task/ user story decomposition and planning, refining functional and non-functional requirements.
+- Takes ownership for the most technically challenging stories.
+- Supervise development group of 1-2 people, to guarantee delivery of good quality in time
+- Active participation in project newcomers adaptation / knowledge sharing processes
+- Understand and practice delegation of tasks, is able to control their execution
+- Follow and apply code standards, guidelines, develop documentation
+- Participate in code review process as reviewer
+- Possess strong technical expertise, able to suggest and prove complex technical decisions (to team or/and customer)
+- Strong technical experience and engagement to project architecture building
+- Project manager's/team-lead's proven feedback of person seniority
+
+### Reliability
+- Candidate is a decision maker. He is able to explain which decisions he made on the project, what the cost of mistake was and which techniques did he use to find the best solution (which other options he covered, which criteria did he use).
+- Knowledge of time management tips and work day planning techniques
+- Can be responsible not only for his/her work, but also is able control work of 1-2 junior developers
+
+### Quality
+- Can explain what is the code quality and how to measure it.
+- Know TDD and BDD and be able to compare them.
+- Has experience in creating reasonable and valuable unit-tests.
+- Understands what is test pyramid and has basic knowledge of different testing types.
+- Code review process understanding, usage of different code review tools on project
+- Usage of automation code quality control tools
+
+### Customer Relations
+- Active participation in project meetings, including presentation of team results, planning meetings, etc.
+- Requirements clarification (on daily basis) For example, during grooming sessions, ask questions in order to clarify all possible cases and suggest some possible user experience.
+- Effective group discussions, an experience of meetings planning, creating of agenda, mfu. 
+- Good understanding of the things which should be exposed to a Client and which should not.
+
 ## Real questions from committees
 
 ### Common
@@ -226,7 +292,12 @@
 ### Build Tools
 - Could you please compare Gulp and Webpack?
 - Do you use Webpack on your project? Which version?
+
+### CI/CD
 - Why are you using CI on your project?
+- How do you understand CI/CD processes?
+- Could you please describe a current CI/CD process in your project if any? If yes, could it be improved somehow? If no, how would you organize it?
+- Can you name the stage of pipeline of continous delivery from development commit to production?
 
 ### Frameworks
 - What is the main difference from your point of view between JS framework XXX and YYY.
@@ -467,7 +538,6 @@
 - Choose any design pattern and describe it.
 - Let’s says that you have node app, and some dependency has critical vulnerability which recently discovered. What will be your actions?
 - What kind of streams are exists in nodejs?
-- How do you understand CI/CD processes?
 - What “feature complete" means for you?
 - What performance optimization techniques do you know in AngularJS?
 - Please describe lifecycle of directive in AngularJS?
@@ -511,7 +581,7 @@
 - What is disadvantages of using filters in templates in AngularJs?
 - Git Flow. What kind of Git branching strategies are you familiar with? What are benefits and drawbacks of those?
 - What are the differences between code quality and product quality?
-- You've a burden of obsolete technology on the project, utilized by the customer. It will slow down future progress of the project. What shoul you do?
+- You've a burden of obsolete technology on the project, utilized by the customer. It will slow down future progress of the project. What should you do?
 - What are the main pros and cons SPA?
 - From the architectural point of view Pros and Cons of SPA?
 - Memory leaks in SPA, what's the main cause? How to detect?
@@ -653,7 +723,6 @@
 - Have you ever used flow in your project? Could you please tell us about Flow. What are benefits of its usage?
 - Unit test vs e2e? Coverage at you project? How private methods can be tested?
 - Let's imagine situation when you, as a key developer, have a requirement from customer to make some very specific implementation of some feature. After analizing this story, you find out that implementing it in proposed way will severely hurt maintainability and will heavily slowdown development process of next features. What will you do?
-- How will you estimate task you have never performed? 
 - From your point of view, what is the most major accomplishment or achievement,that gives you most confidence in becoming a D3?
 - How do you keep yourself in good technical state? (read smth, where?) What was the latest?
 - You used to work with C, Java, Python. Could you compare ecosystems of those languages with JavaScript? highlight some cons pros? npm vs other
@@ -663,7 +732,6 @@
 - In your form you mentioned that you use Agile on your current project.  Can you say the pros and cons of Agile methodology?
 - Let’s imagine the situation, You had to juggle several tasks at the same time. How did you organize your time?
 - What does clean code mean for you? How do you ensure code quality?
-- Could you please describe a current CI/CD process in your project if any? If yes, could it be improved somehow? If no, how would you organize it?
 - What is the difference between functional and nonfunctional requirements? Examples?
 - What does an accessible application mean for you? Do you consider a11y problems in your current project?
 - Do you have any experience of task delegation? How would you choose the right person? How would you control that?
