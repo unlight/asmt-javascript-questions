@@ -359,6 +359,8 @@
 
 ### Angular X
 - How does Angular2 AoT compilation works?
+- What is AoT? And what advantages it provides, what is the difference with JIT?
+- What is the difference between a component and a directive?
 
 ### Interview
 - How do you rate candidates? What skills do you rate as the most important for the company?
@@ -735,6 +737,34 @@
 - What is the difference between functional and nonfunctional requirements? Examples?
 - What does an accessible application mean for you? Do you consider a11y problems in your current project?
 - Do you have any experience of task delegation? How would you choose the right person? How would you control that?
+- As an Engineer what is that one area where you think you need to improve?
+- How do you manage your time?
+- Could you please explain why do we need code review in software development? How do you manage them?
+- What artifacts in Agile do you know? Please, could you describe them?
+- Could you please tell us about technical debt?
+- What is shadow DOM? How is it helping Angular 2 to perform better?
+- Who is key developer in your understanding? What tasks does key developer deal with?
+- Describe the feature you've implemented and you're proud of. What principles, design patterns have you used for designing its architecute?
+- Please, describe what critetia should match a good unit test? Can you name some anti-patterns in unit tests usage?
+- Supposing you are assigned as an architect of brand-new project . You are provided with a team. Which frameworks, technology stack will you choose? What are mandantory steps for establishing project processes? What are benefits of using frameworks? What are disadvantages?
+- If you occurred being overloaded with tasks in the middle in the sprint and you realized,that probably you wouldn't manage to complete all in time. How would you handle the situation?
+- What steps will you undertake to handle the slow page loading? How will you start a problem investigation? What if TTI (time to interactive) metric is quite big, what are possible ways to improve it? (WebWorkers, code splitting)
+- What are benefits of using TypeScript?
+- Could you share your biggest fail in your work experience? What have you learned from it?
+- Could you name difference of performance optimization technics for HTTP/1.1 and HTTP2? What is a difference in interviewing D1, D2 and D3? Could you, please, give an example of question, that will reveal whether a developer matches Senior level? Are an excellent bagage of technical skills and applicable for a target project experience enough to pass an interview into your team?
+- Can you name the stages of continous delivery pipeline from development commit to production?
+- Your customer ask you to create functional specification for project, how you could orginize this process?
+- How is change detection implemented in Angular. What role does zone.js library play in Angular change detection
+- Web page rendering process. What is the critical rendering path?
+- What is the accessability? Describe the accessability principles.
+- Could you please describe ideal metoring process from your point of view? How to evaluate successfull mentoring?
+- What is Single Page Application? Can SPA be written without any frameworks? What are disadvantages of SPA (SEO -> server rendering)
+- Are you familiar with FLUX architecture? Coudl you please compare to MV* architecture?
+- Why we should use design patterns? Describe decorator and facade patterns.
+- What is the Code Quality? How to measure the Code Quality on a project? What processes you may suggest that improves the Code Quality? What principles do you follow to write a good code? What can be considered as a tech debt?
+- What kind of different estimatin approach do you know? Which of them did you use in real practice? Decribe the relative estinmation approaches. Advantages and disadvantages.
+- Do you know some exterme programming technics? Some experience?
+- What is an optimal team size in a SCRUM team? What problems may appear if the team would be bigger or smaller? How to solve those problems? Imagine that your team has a significant rump up - how would you change the processes?
 
 ### Terms in few words / one sentence
 * closure
