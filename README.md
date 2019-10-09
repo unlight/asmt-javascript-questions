@@ -103,6 +103,7 @@
 - What are the differences between code quality and product quality?
 - What is your checklist when you are doing code review?
 - Different types of code review, pre-push, post-push (pros/cons)?
+- What types of testing (related to non-functional requirements) do you know?
 
 ### Unit/Integration testing
 - How you can use tests while re-writing legacy code?
