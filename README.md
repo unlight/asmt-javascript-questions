@@ -766,6 +766,73 @@
 - What kind of different estimatin approach do you know? Which of them did you use in real practice? Decribe the relative estinmation approaches. Advantages and disadvantages.
 - Do you know some exterme programming technics? Some experience?
 - What is an optimal team size in a SCRUM team? What problems may appear if the team would be bigger or smaller? How to solve those problems? Imagine that your team has a significant rump up - how would you change the processes?
+- From you perspective what is the difference between D2 and D3?
+- Why do mentor people?  What is the most exciting for you in mentoring? Which results have you achieved (for yourself)?
+- You merged new functionality and an hour later found that it has critical bug on production. It's Friday evening. Your actions?
+- Are you familiar with delegation? Did you delegate? What's the difference with assignment?
+- As I see in form you worked just with React (Backbone, Angular). But let's say you are asked to start a new project and choose a tech stack for frontend. What would you choose?
+- Have exp with react, redux. How to deal with asynchronous logic? Requests in reducers? Why do we need middleware? Workaround to get rid of it?
+- What does an accessible application mean for you? Do you consider a11y problems in your current project?
+- Do you know the difference between functional and non-functional requirements? If yes could you please describe NFRs on your current project?
+- Let's talk a bit about your key developer experience. What is the most challenging thing you've ever faced in this role? Maybe some task or occasion
+- From your grow form I've got that you participate in different aspects of mentoring, right? How do you motivate your mentees to learn? Let's imagine then you have a mentee who doesn't meet the deadline with the last milestone (homework or something). What would you do?
+- As I can see you can deal with a lot of activities at the same time. Could you please tell us how you organize your time, maybe use some techniques? How do you define priorities?
+- From the grow, you played the Key Developer role, so what in your opinion is the main difference between simple and Key developer roles in a project?
+- How to estimate task, epic, project. Which techniques you are following
+- "What do you think why Agile Software Development Methodology is popular now?
+- What techniques for managing a software development process are used in your project?"
+- How do you define code quality? What makes good code good?
+- "Why Code review process so important?
+- How to make effective Code review? 
+- What tools are you using on your project?
+- What is Definition of done and how it helps?"
+- Please describe how Javascript manage the asynchronous events under the hood (Callbacks / SetTimeout / Ajax calls)
+- Imagine a situation that you have to choose SDLC methodology for a new project? Which one will you choose and why?
+- You worked with React, can you say which patterns are recommended to use during the application development (Best practices)
+- Which clean code principles do you know and follow
+- You get a legacy code and nobody knows how it works, what does it do. There is no documentation. How would you discover this code base?
+- Let' suppose we do not know what the benefits of Continuous Integration are? Please persuade us to use it!
+- (reserve) What is the critical rendering path and how it works?
+- (reserve) What is the main Advantages & Disadvantages of JavaScript / compare to other languages
+- (reserve) What is the main Advantages & Disadvantages of Unit testing. What does AAA pattern means?
+- Imagine the situation client say that his REACT application is laggy, how to deal in this situation, and how to handle performance issues in React?
+- (Reserve: Describe the methods of building web UI: Progressive Enhancement and Graceful Degradation / Regressive Enhancement?)
+- What does the GIT flow, how it differs from Gitlab flow?
+- How the pre-commit & post-commit hooks can help?
+- Which design patterns you think the most useful for you?
+- Explain difference between classical OOP inheritance and prototype inheritance in JavaScript.
+- Explain how UseEffect hook works in React and cases where we can use it.
+- Describe diference between PubSub and Observer patterns.
+- Difference between Scrum and SAFe.
+- What is onboarding? How do you onboard developers on your project?
+- Describe what is TDD and BDD. Compare them.
+- Describe full rendering process of a webpage starting from entering url in address line.
+- Explain how using immutable data makes profit in performance
+- What recent changes were introduced in React? Why were they added?
+- As React is praised for its fast rendering, do you think it's better to use it over native JS in each web-app? Could you name cases, when it's not preferable to VanillaJS ?
+- Enumerate the features of good-quality unit-tests
+- Which drawbacks ImmutableJS has?
+- Low test coverage ~80%? What effort did you put into increasing to 90-95%? How to understand that your coverage is good? Things you do not need to test?
+- What were you developing, that you need bluetooth API POC? Was it ok regarding support only in chrome?
+- Could you please describe a current CI/CD process in your project if any? If yes, could it be improved somehow? If no, how would you organize it?
+- What does an accessible application mean for you? Do you consider a11y problems in your current project?
+- Could you tell us about strong sides of using Redux? Does it have any disadvantages? Do I need to keep all my state into Redux or Should I ever use react internal state? 
+- Could you describe us what is the difference between MVC, MVP and MVVM patterns?
+- What levels of software application testing do you know? Could you please describe them?
+- What is functional and non-functional requirements? Could you provide some examples?
+- Have you ever participated in code review? Why do we need it? How do you perform code review?
+- Your biggest fail during FE developer experience
+- Describe which criteria a new team member should fit to get into your team as a FE dev level 3.
+- Supposing the situation in the middle of the sprint, when you've found out that the amount of tasks assigned to you is too huge. How would you manage with it? How do you usually plan your work during the day?
+- How do you know that you are ready to become D3? What's the difference?  What will change?
+- What would you do if customer asks you to work in non-working hours, to deploy feature now?
+- Customer tells you to merge now feature with bug.
+- Do you have any experience of task delegation? How would you choose the right person? How would you control that?
+- From your grow form I've got that you participate in different aspects of mentoring, right? How do you motivate your mentees to learn? Let's imagine then you have a mentee who doesn't meet the deadline with the last milestone (homework or something). What would you do?
+- Let's imagine the customer asks you to push an additional story in the middle of a sprint. What would you do?
+- Could you please explain difference between Scrum and Kanban?
+- How do you estimate your tasks? What estimation techniques do you know?
+- Let's imagine you have a conflict in your team between you subordinates. What will you do?
 
 ### Terms in few words / one sentence
 * closure
