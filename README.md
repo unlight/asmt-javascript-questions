@@ -225,6 +225,9 @@
 - How can we organize auth for services in microservices architecture?
 - What design patterns for microservices do you know and have tried it?
 - How do you usually do security check of your code?
+- What alternative to NPM do you know? What are its benefits?
+- What is the preferred method of solving unhandled exceptions in Node.js?
+- What are the pros and cons between these two paradigms: functional programming and object-oriented programming?
 
 ### Browser internals. Performance optimization.
 - Possible ways to speedup your javascript code execution time? Hidden classes? try/catch?
@@ -870,6 +873,7 @@ Team: 4 persons with different skillsets (D1, D2, D3, D4)
 - http://davidshariff.com/blog/preparing-for-a-front-end-web-development-interview-in-2017/
 - https://medium.freecodecamp.com/cracking-the-front-end-interview-9a34cd46237
 - https://github.com/sudheerj/reactjs-interview-questions
+- https://coderrocketfuel.com/article/node-js-interview-questions-and-answers
 - https://github.com/MaximAbramchuck/awesome-interview-questions
   - https://github.com/MaximAbramchuck/awesome-interview-questions#javascript
   - https://github.com/MaximAbramchuck/awesome-interview-questions#angularjs
