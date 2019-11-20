@@ -71,6 +71,7 @@
   - What does it mean to be a Senior Specialist? Please explain new challenges and responsibilities.
   - What is the difference between L2 and L3 engineer?
 - What challenges or big goals would you like set for yourself being Cheif Software Engineer.
+- Describe your biggest achievement that you can be proud of?
 - Please, name the phases of Software Development Life Cycle?
 - Talk about SDLC in context of your project.
 
@@ -456,6 +457,14 @@
 - What software development techniques are you using on your project and what other techniques do you know?
 - In which case do you use Agile methodologies and in which case Waterfall methodology?
 - Lets imagine that you are a scrum master. What will you do, if customer wants to implement a brand new feature right now, and your team is in the middle of current sprint?
+- Could you please explain difference between Scrum and Kanban?
+- How do you estimate your tasks? What estimation techniques do you know?
+- Estimation techniques, metrics, why we estimate
+- How do you do your technical tasks estimations?
+- What is better under-estimation or over-estimation? Why?
+- What's the difference between Scrum and Kanban?
+- When Scrum/Kanban can’t be used?
+- What are pros and cons of Scrum? What’s the difference between Scrum and Kanban? When can’t we use SCRUM?
 
 ### Other
 - Please, name the basic steps of software development process
@@ -501,11 +510,9 @@
 
 ### Unsorted
 - How did you decide between choosing webpack and gulp/grunt setup?
-- What are pros and cons of Scrum? What’s the difference between Scrum and Kanban? When can’t we use SCRUM?
 - What are your actions when you/someone discovers a bug in production?
 - What kind of documents you’ve created recently?
 - Let’s imagine you need to create ‘Send Email’ form from Gmail. What are your estimates and why?
-- What estimation approaches do you know?
 - How "reselect library" improves performance? How do you measure perf? When reselect optimizations not working?
 - What is main difference between Redux and Facebook Flux library?
 - You mentioned in your form that you mentored junior and newcomer. Was it successful and why? How do you think you may improve your mentoring skills?
@@ -532,7 +539,6 @@
 - Could you explain a role of Key Developer on a project?
 - What is a recent technical challenge you experienced and how did you solve it?
 - What’s the difference between L2 and L3?
-- What are pros and cons of Scrum? What’s the difference between Scrum and Kanban? When can’t we use SCRUM?
 - How do you deal with conflicts during the code review process?
 - How do you explain ‘dependency injection’ pattern to someone who has no experience working with it?
 - How do you debug performance issues?
@@ -555,9 +561,7 @@
 - What does Key Developer role mean?
 - What techniques did you use while mentoring?
 - Recall last conflict/hard situation with client. How it was solved? What could be done better?
-- When Scrum/Kanban can’t be used?
 - What is better White or Black testing?
-- What estimation techniques do you know?
 - How do you decide what to delegate and why? => What is better delegate task or responsibilty?
 - You’r starting new project from scratch, what frameworks, arch patterns would you choose and why?
 - Client said “This new feature should be done today?”, but you understand you’ll need a week to finish it. What will you do?
@@ -577,7 +581,6 @@
 - Is there multi-threading in JavaScript?
 - How to understand that it's time to refactor something? How can you convince client that refactoring is needed?
 - What is immutability? Why do you need it? How can you ensure immutability in JavaScript?
-- What is better under-estimation or over-estimation? Why?
 - You have a release, and the PM asks you to include a feature that is 95% ready, with no tests, but the client wants to see it on PROD. What do you say to your PM?
 - Post and pre commit code review what are the pros and cons? In the context of CI, which oen would you use and why?
 - Angular 1 vs 2. Comparison. What are the main improvements?
@@ -613,7 +616,6 @@
 - Any static analysis tools?
 - Where did you get the soft-skill knowledge from?
 - Which SW development methodologies do you know?
-- How do you do your technical tasks estimations?
 - When would you use a component over a directive?
 - Why is isolate scope an important concept?
 - How does the $digest cycle work?
@@ -634,7 +636,6 @@
 - What are the main goals of conferences and tech/social meetups for you?
 - How do you handle bad mood?
 - How does supervision affect your productivity (delivery)?
-- What's the difference between Scrum and Kanban?
 - What software best practices did you use on your last project and why?
 - Why would you refactor Angular app into React? What reasons?
 - How did you improve performance on the last project and what kind?
@@ -675,7 +676,6 @@
 - Git conflicts resolving, rollback of changes.
 - How do you perform code review. What do you pay attention to during code review
 - What is story point?
-- Estimation techniques, metrics, why we estimate
 - Imagine a situation - you designed an architectural approach for a new feature, but other developer also has alternative approach - the two are incompatible. What would be your steps in such situation ?
 - You need to implement code review process in your new project. What should you recommend and why?
 - Describe onboarding plan of new developers
@@ -833,9 +833,50 @@
 - Do you have any experience of task delegation? How would you choose the right person? How would you control that?
 - From your grow form I've got that you participate in different aspects of mentoring, right? How do you motivate your mentees to learn? Let's imagine then you have a mentee who doesn't meet the deadline with the last milestone (homework or something). What would you do?
 - Let's imagine the customer asks you to push an additional story in the middle of a sprint. What would you do?
-- Could you please explain difference between Scrum and Kanban?
-- How do you estimate your tasks? What estimation techniques do you know?
 - Let's imagine you have a conflict in your team between you subordinates. What will you do?
+- Explain what is two-way and one-way data binding, from the high level of view, without details (specific to framework). Please provide some examples of libraries.
+- In ES2015 there is a new primitive type Symbol, what opportunities does it provide for customization of objects?
+- Explain what is iterator and how we can create and use it.
+- Do you know something about Proxies? For which purposes they can be used?
+- What types of CSS layout modules do you know? Just name it.
+- Aux: How do you position two blocks… 50/50.
+- Can you compare different approaches in building process: npm (cli way) vs pluggable task runner (for example: gulp, grunt) and webpack?
+- Let’s imagine you need to implement CI on a new project. What will be your actions?
+- How do you test your code?
+- aux: What kind of tests do you know...
+ - What is acceptable Code Coverage level?
+- What is a good code in your opinion? (sim. 25)
+- Imagine that you are done with a task, and your team lead and the assistant are missing. What are going to do?
+- Describe the difference between `<script>`, `<script async>` and `<script defer>`
+- What does it mean to be a Senior Specialist? Please explain new challenges and responsibilities.
+- How do you understand Closure in JavaScript?
+- How do you understand Prototypal inheritance and how does search of properties work in prototype chain?
+- Explain pros and cons of development using the components approach?
+- Do you know what is temporal dead-zone in ES2015? (probable additional question - What are WeakMap and WeakSet in JS, how they work?)
+- Describe the weak points of angular js and how can we deal with them
+- How do you understand that you need to improve performance of your application? How do you convince client that you need to do this.
+- What SOLID is? Could you tell how do you use solid in your work?
+- TDD & BDD, what the difference, which one do you prefer?
+- Please describe how do you manage and eliminate a technical debt on your project?
+- How do you convince client to eliminate tech debt?
+- Describe your steps if you realize that you wrongly estimated some stories and sprint fails?
+- Could you explain a role of Key Developer on a project?
+- What is a recent technical challenge you experienced and how did you solve it?
+- How do you deal with conflicts during the code review process?
+- How do you explain ‘dependency injection’ pattern to someone who has no experience working with it?
+- How do you debug performance issues?
+- What are your actions when you/someone discovers a bug in production?
+- What kind of documents you’ve created recently?
+- What are you actions when you need to decide between two libraries that you’ll use in your project
+- Give an example of solving difficult issues. How you helped your teammates? What could be improved?
+- Could you please describe your code review process in your project, pros and cons?
+- How else could you control code quality?
+- "Only one (student) finished the course successfully." Have you analyzed why such situation happened? Maybe you found the ways how you may improve your courses?
+- What motivates you to get the next level?
+- What is the difference between L2 and L3 engineer? 
+- How do you improve your team lead and team work skills? How do you measure your success?
+
+
 
 ### Terms in few words / one sentence
 * closure
