@@ -180,7 +180,8 @@
 
 ### Node.js
 - What is an error-first callback?
-- What kind of streams are there in nodejs?
+- Describe what a stream is in Node.js?
+- How many types of streams exist in Node.js?
 - Describe how method pipe works.
 - The difference between nextTick and setImmediate?
 - Can you name some points from twelve factor application methodology?
@@ -229,6 +230,8 @@
 - What alternative to NPM do you know? What are its benefits?
 - What is the preferred method of solving unhandled exceptions in Node.js?
 - What are the pros and cons between these two paradigms: functional programming and object-oriented programming?
+- What are alternatives to NPM? What are its benefits?
+- What general practices do you use for debugging when building Node.js applications?
 
 ### Browser internals. Performance optimization.
 - Possible ways to speedup your javascript code execution time? Hidden classes? try/catch?
