@@ -220,6 +220,7 @@
 - TA team, asked to you to interview and evaluate a candidate that is potentially a senior based on TA pitch. But during the interview you saw that the candidate take a lot of time for answer questions that should not be a problem for a senior developer. How did you conduct the interview after realizing that the candidate is more Junior than Senior?
 - A new project is about to start and you're selected to be the Key Developer, the client provide just few basic information about the project and they asked you to start picking some technologies to the project. Initially it will be just some CRUD to serve a mobile client. What is the stack that you select for this first draft and why?
 - You started with MongoDB after you realized that your data is more relational, did you continue with MongoDB?
+- Have you heard about left-pad incident in nodejs ecosystem? What can you do as developer/architect to prevent to fall into this trap?
 - Let’s says that you have node application, and some indirect dependency (3-4th level) has critical vulnerability which recently discovered. How you could solve this?
 - How do you think, when the team should update the version of the framework to the newer one?
 - What will you do if you feel that your competency is not enough to finish the assigned task in estimated time?
