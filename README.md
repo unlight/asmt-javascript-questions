@@ -105,6 +105,7 @@
 - What is your checklist when you are doing code review?
 - Different types of code review, pre-push, post-push (pros/cons)?
 - What types of testing (related to non-functional requirements) do you know?
+- What practices/approaches do you use to improve quality? 
 
 ### Unit/Integration testing
 - How you can use tests while re-writing legacy code?
@@ -232,6 +233,11 @@
 - What are the pros and cons between these two paradigms: functional programming and object-oriented programming?
 - What are alternatives to NPM? What are its benefits?
 - What general practices do you use for debugging when building Node.js applications?
+- What the most advantage features you have used from node.js platform?
+- What is an advantage for streams in node.js? 
+- How async work is handled by node.js platform? Async development: Event loop, libUV, EventEmitter.
+- What experience do you have with node.js backend frameworks? Imagine you have a greenfield project, how are you are going to choose the framework for it?
+- What strategies do you use to keep your applications secure.
 
 ### Browser internals. Performance optimization.
 - Possible ways to speedup your javascript code execution time? Hidden classes? try/catch?
