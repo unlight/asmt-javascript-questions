@@ -74,6 +74,7 @@
 - Describe your biggest achievement that you can be proud of?
 - Please, name the phases of Software Development Life Cycle?
 - Talk about SDLC in context of your project.
+- What was your most challenging task?
 
 ### Code Quality
 - Which code review tools you know/use? Your criterias for good code.
@@ -487,7 +488,6 @@
 - Please describe your problem solving skill a bit more. What do you exactly do if you face a problem?
 - How do you estimate your tasks?
 - How do you prioritize your tasks? For example you need to decide which task is more important for you right now. What will you do?
-- What was your most challenging task?
 - What Front End technologies have you used recently on your projects?
 - How do you improve the quality of your work? How can you be sure that your work is well done?
 - Do you perform any technique to manage your time?
