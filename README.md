@@ -213,7 +213,6 @@
 - How can we found causes of exceptions with memory leaks?
 - Have you an experience catching memory leaks in production? (What if memory contains sensitive data)
 - Please compare GraphQL and REST and RPC (pros and cons)?
-- Your teammates constantly postpone code review to the end of the sprint. As a result the changes are merged in the last day of the sprint, QAs could not verify them on time. What to do?
 - Let's say you've been given a task to find the weakest places in your solution/process to improve them. What will you do?
 - Imagine you are leaving a project where you was responsible for some big complex undocumented area. Your teammates are not competent in this area and you should make knowledge transfer for them. Your steps?
 - You mentioned Kafka for a messaging pattern, did you considered other options like RabbitMQ? Still in the messaging topic what was the challenge to you implementing this pattern?
@@ -439,6 +438,7 @@
 - Imagine one of your colleagues has written some code that you don't agree with. What will you do?
 - If a member of your team makes mistakes, delivers buggy code, make delays, what actions would you take?
 - Customer is very angry with your team, because the team deployed some defect to production. How should your team leader behave?
+- Your teammates constantly postpone code review to the end of the sprint. As a result the changes are merged in the last day of the sprint, QAs could not verify them on time. What to do?
 
 ### Agile Scrum Kanban
 - What is scrum methodology? 
