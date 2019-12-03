@@ -544,7 +544,6 @@
 - What SOLID is? Could you tell how do you use solid in your work?
 - TDD & BDD, what the difference, which one do you prefer?
 - Please describe how do you manage and eliminate a technical debt on your project?
-- How do you convince client to eliminate tech debt?
 - Describe your steps if you realize that you wrongly estimated some stories and sprint fails?
 - Could you explain a role of Key Developer on a project?
 - What is a recent technical challenge you experienced and how did you solve it?
@@ -855,7 +854,7 @@
 - How do you test your code?
 - aux: What kind of tests do you know...
  - What is acceptable Code Coverage level?
-- What is a good code in your opinion? (sim. 25)
+- What is a good code in your opinion?
 - Imagine that you are done with a task, and your team lead and the assistant are missing. What are going to do?
 - Describe the difference between `<script>`, `<script async>` and `<script defer>`
 - What does it mean to be a Senior Specialist? Please explain new challenges and responsibilities.
@@ -868,7 +867,6 @@
 - What SOLID is? Could you tell how do you use solid in your work?
 - TDD & BDD, what the difference, which one do you prefer?
 - Please describe how do you manage and eliminate a technical debt on your project?
-- How do you convince client to eliminate tech debt?
 - Describe your steps if you realize that you wrongly estimated some stories and sprint fails?
 - Could you explain a role of Key Developer on a project?
 - What is a recent technical challenge you experienced and how did you solve it?
