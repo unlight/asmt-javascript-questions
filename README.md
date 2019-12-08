@@ -239,6 +239,16 @@
 - How async work is handled by node.js platform? Async development: Event loop, libUV, EventEmitter.
 - What experience do you have with node.js backend frameworks? Imagine you have a greenfield project, how are you are going to choose the framework for it?
 - What strategies do you use to keep your applications secure.
+- Let's imagine I am a junior, explain me how nodejs works with concurrent requests? (Does nodejs up another one thread, how exactly under the hood how its working)
+- Do you have any experience in performance optimization?
+- Let's say you need to build a high available microservice with real small downtime percentage, what tactics you will choose to achieve that?
+- Have you ever faced with containerization or something like this?
+- AWS Secret Manager. Why do we need this?
+- Explain to junior what is the difference between http and https, and why do we need SSL certificates? Does such certificates protects from some kind of attacks?
+- What is serverless architecture? What is the dark sides of serverless architecture?
+- AWS: What is the difference between SNS and SQS?
+- When we should use SNS, (why we should use it), for example we have a bunch of lambas, API gateways, etc.
+- Can you name advantages of using design first for API development, what is the benefit of using Swagger (using swagger rather than just coding)?
 
 ### Browser internals. Performance optimization.
 - Possible ways to speedup your javascript code execution time? Hidden classes? try/catch?
