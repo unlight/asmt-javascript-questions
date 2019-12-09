@@ -249,6 +249,7 @@
 - AWS: What is the difference between SNS and SQS?
 - When we should use SNS, (why we should use it), for example we have a bunch of lambas, API gateways, etc.
 - Can you name advantages of using design first for API development, what is the benefit of using Swagger (using swagger rather than just coding)?
+- You need to store logs from several services in database, and base on this data later, you will build reports for user activities, what kind of database you will choose?
 
 ### Browser internals. Performance optimization.
 - Possible ways to speedup your javascript code execution time? Hidden classes? try/catch?
