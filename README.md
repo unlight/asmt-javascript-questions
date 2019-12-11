@@ -76,6 +76,11 @@
 - Talk about SDLC in context of your project.
 - What was your most challenging task?
 
+### JavaScript / EcmaScript
+- closure
+- observable
+- temporal dead zone
+
 ### Code Quality
 - Which code review tools you know/use? Your criterias for good code.
 - What is code review in your opinion?
@@ -107,6 +112,8 @@
 - Different types of code review, pre-push, post-push (pros/cons)?
 - What types of testing (related to non-functional requirements) do you know?
 - What practices/approaches do you use to improve quality? 
+- What do you consider to be a quality code? When you review the code, which sections of the code do you pay special attention to?
+- What kind of design patterns do you use in your daily work? How this knowledge helps you to write better code? Please describe some situations from your latest project when you use patterns?
 
 ### Unit/Integration testing
 - How you can use tests while re-writing legacy code?
@@ -124,6 +131,7 @@
 - What is the Testing Pyramid?
 - Can you describe what are the main differences between Jasmine and Mocha?
 - How you can be sure that code is really tested? How we can prevent cheating on unit test? What does 100% code coverage means? (AAA, Mutation testing)
+- Except increasing project bug-sustainability, what are other advantages of using unit tests? Name examples, of unit tests mistakes, that freshers usually do? 
 
 ### JS && DOM && CSS
 - What ways of managing asynchronous code do you know?
@@ -168,10 +176,12 @@
 - What is immutability? Why do you need it? How can you ensure immutability in JavaScript?
 - Please, talk about ES2015 modules, what ES2015 modules exports? What is the difference between commonjs modules and ES2015 modules?
 - As you know ES6 classes are just syntactic sugar. What happens in reality when you create class A? What happens when you want inherit class B from class A?
+- In javascript, there is an Event Loop. Why does it need, what kind of goal does it resolve? Could you please describe how does event loop work?
 
 ### CSS
 - What is specificity in CSS?
 - What CSS preprocessors you know/use? Pros and cons?
+- How BEM structure helps you to write better code? What kind of best practice do you know, if we are talking about BEM?
 
 ### TypeScript
 - Compare TypeScript vs Flow, what features they provide, what problems they solve?
@@ -336,11 +346,6 @@
 - Imagine you need to choose library or framework for your new project. Which criterias will you use to make decision?
   - What are you actions when you need to decide between two libraries that you’ll use in your project?
 - Imagine you write your own custom framework for project needs. Could you please compare your framework with anyone, you're familiar with (AngularJS, Backbone, etc). Do you adree that developing custom framework might be efficient than using existing one and why?
-- How to improve performance of react components?
-- What is Pure Component in react?
-- Redux principles: What is pure function? Where it came from (what paradigm)?
-- How "reselect library" improves performance? How do you measure perf? When reselect optimizations not working?
-- What is main difference between Redux and Facebook Flux library?
 - What better in your opinion - one-way or two-way data binding, why? What is better to use (prefer) in Angular?
 - What performance optimization techniques do you know in AngularJS?
 - Describe lifecycle of directive in AngularJS?
@@ -354,6 +359,11 @@
 - Concerning interceptors in Angular have you worked with them?
 
 ### React
+- How to improve performance of react components?
+- What is Pure Component in react?
+- Redux principles: What is pure function? Where it came from (what paradigm)?
+- How "reselect library" improves performance? How do you measure perf? When reselect optimizations not working?
+- What is main difference between Redux and Facebook Flux library?
 - Speaking about the React. What’s the difference between state and props?
 - How do you implement the situation when child component wants to update the parent state? What are the good practices?
 - What happens when you call setState in React?
@@ -450,6 +460,7 @@
 - If a member of your team makes mistakes, delivers buggy code, make delays, what actions would you take?
 - Customer is very angry with your team, because the team deployed some defect to production. How should your team leader behave?
 - Your teammates constantly postpone code review to the end of the sprint. As a result the changes are merged in the last day of the sprint, QAs could not verify them on time. What to do?
+- Situation: Imagine that you are a lead of the small team. One of your subordinate is late for the morning meeting. He does this systematically. What will you do?
 
 ### Agile Scrum Kanban
 - What is scrum methodology? 
@@ -487,6 +498,7 @@
 - What's the difference between Scrum and Kanban?
 - When Scrum/Kanban can’t be used?
 - What are pros and cons of Scrum? What’s the difference between Scrum and Kanban? When can’t we use SCRUM?
+- Your team should estimate some sprint (sprint includes front/back/design tasks). How will you organize this process, how will you estimate tasks, how will show the result to the customer?
 
 ### Other
 - Please, name the basic steps of software development process
@@ -497,8 +509,6 @@
 - What concrete problems have you faced so far? Mention a few examples.
 - What would you do if you can’t find the solution?
 - Please describe your problem solving skill a bit more. What do you exactly do if you face a problem?
-- How do you estimate your tasks?
-- How do you prioritize your tasks? For example you need to decide which task is more important for you right now. What will you do?
 - What Front End technologies have you used recently on your projects?
 - How do you improve the quality of your work? How can you be sure that your work is well done?
 - Do you perform any technique to manage your time?
@@ -535,7 +545,6 @@
 - What kind of documents you’ve created recently?
 - Let’s imagine you need to create ‘Send Email’ form from Gmail. What are your estimates and why?
 - How "reselect library" improves performance? How do you measure perf? When reselect optimizations not working?
-- What is main difference between Redux and Facebook Flux library?
 - You mentioned in your form that you mentored junior and newcomer. Was it successful and why? How do you think you may improve your mentoring skills?
 - What techniques did you use? What was the outcome?
 - Could you describe pitfalls you may face with in development for mobile devices? (What are the difficulties you may face )
@@ -562,13 +571,11 @@
 - How do you deal with conflicts during the code review process?
 - How do you explain ‘dependency injection’ pattern to someone who has no experience working with it?
 - How do you debug performance issues?
-- What are your actions when you/someone discovers a bug in production?
 - What kind of documents you’ve created recently?
 - What are you actions when you need to decide between two libraries that you’ll use in your project?
 - How do you improve your team lead and team work skills? How do you measure your success?
 - How we can increase the speed of TypeScript compilation process?
 - Choose any design pattern and describe it.
-- Let’s says that you have node app, and some dependency has critical vulnerability which recently discovered. What will be your actions?
 - What kind of streams are exists in nodejs?
 - What “feature complete" means for you?
 - What performance optimization techniques do you know in AngularJS?
@@ -728,9 +735,7 @@
 - Consider situation, when one of your subordinates made a mistake, which broke up the build. Please, describe your reaction and actions you will undertake.
 - Great mistake during the overall experience
 - Imagine that you are leading the small team. One of your subordinate is late for the morning meeting. He does this systematically. What will you do?
-- One of your colleagues created а commit for new feature (it includes back and front files, refactored and new components). Let's say around 1000 lines. How will you review this commit? What kind of pieces of code will have special attention?
 - How to work Virtual DOM in React (what is VDOM, what is the puprose to use it)? What is the difference between DOM and VDOM?
-- You have a task to develop an UIKit, the design is done and approved. What kind of libraries/tools/technologies will you use? Describe how will you organise the structure? 
 - Can you please name your favorite design patterns? (if it will be the observable or singleton ask about others) How to these knowledge could help you in you daily work?
 - Imagine that you are leading the small team. One of your subordinate is late for the morning meeting. He does this systematically. What will you do?
 - One of your colleagues created а commit for new feature (it includes back and front files, refactored and new components). Let's say around 1000 lines. How will you review this commit? What kind of pieces of code will have special attention? [Split big commit into small chunks with back and front. Add new component without integration separately. Cover by unit tests (e2e depends on requirement, but good to mention about them). If it has doc for the components or UIkit, update it (mention about doc).]
@@ -894,14 +899,6 @@
 - What motivates you to get the next level?
 - What is the difference between L2 and L3 engineer? 
 - How do you improve your team lead and team work skills? How do you measure your success?
-
-
-
-### Terms in few words / one sentence
-* closure
-* observable
-* specificity
-* temporal dead zone
 
 ### Task
 ```Text
