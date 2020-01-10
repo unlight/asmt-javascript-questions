@@ -932,6 +932,7 @@ Team: 4 persons with different skillsets (D1, D2, D3, D4)
 - https://github.com/sudheerj/reactjs-interview-questions
 - https://coderrocketfuel.com/article/node-js-interview-questions-and-answers
 - https://github.com/MaximAbramchuck/awesome-interview-questions
+- https://github.com/lydiahallie/javascript-questions
 - https://dev.to/fullstackcafe/26-top-angular-8-interview-questions-to-know-in-2020-1khe
   - https://github.com/MaximAbramchuck/awesome-interview-questions#javascript
   - https://github.com/MaximAbramchuck/awesome-interview-questions#angularjs
