@@ -539,6 +539,18 @@
 - Have you faced any failures in your development career and if you had please describe the worst one and what you’ve learned from it?
 - Imagine you are leaving a project where you was responsible for some big complex undocumented area. Your teammates are not competent in this area and you should make knowledge transfer for them. Your steps?
 
+#### JS Code
+```js
+const arr = [['a', 'b'], ['c', 'd']];
+console.log(arr[0,1])
+```
+
+```js
+// NFE (Named Function Expression)
+var foo = function bar() { return 12; };
+console.log(typeof bar());
+```
+
 ### Unsorted
 - How did you decide between choosing webpack and gulp/grunt setup?
 - What are your actions when you/someone discovers a bug in production?
