@@ -260,6 +260,10 @@
 - When we should use SNS, (why we should use it), for example we have a bunch of lambas, API gateways, etc.
 - Can you name advantages of using design first for API development, what is the benefit of using Swagger (using swagger rather than just coding)?
 - You need to store logs from several services in database, and base on this data later, you will build reports for user activities, what kind of database you will choose?
+- What are the advantages of using a worker thread vs a child process?
+- Can you mention three popular Node.js frameworks?
+- What is Crypto?
+- What would you use to open a two-way, real-time connection with a client over HTTP?
 
 ### Browser internals. Performance optimization.
 - Possible ways to speedup your javascript code execution time? Hidden classes? try/catch?
@@ -359,7 +363,6 @@
 - Concerning interceptors in Angular have you worked with them?
 
 ### React
-- How to improve performance of react components?
 - What is Pure Component in react?
 - Redux principles: What is pure function? Where it came from (what paradigm)?
 - How "reselect library" improves performance? How do you measure perf? When reselect optimizations not working?
@@ -382,6 +385,7 @@
 - How to improve performance of react components?
 - What is Pure Component in react?
 - Redux principles: What is pure function? Where it came from (What paradigm)?
+- Component communication what strategies do you know (whithout state mananger)?
 
 ### Angular.JS
 - What is disadvantages of using filters in templates in angular.js?
@@ -929,6 +933,7 @@ Team: 4 persons with different skillsets (D1, D2, D3, D4)
 ```
 
 ## Want more?
+- https://www.infoq.com/articles/node-js-14-interview-michael-dawson/
 - https://github.com/h5bp/Front-end-Developer-Interview-Questions
 - https://github.com/arialdomartini/Back-End-Developer-Interview-Questions
 - https://github.com/yangshun/front-end-interview-handbook
